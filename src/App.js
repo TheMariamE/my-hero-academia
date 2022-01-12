@@ -1,7 +1,12 @@
-import logo from './logo.svg';
-import React, { Component } from 'react';
-// import Loader from './components/Principal/Loader.js';
 import './App.css';
+// import React, { Component } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import About from './pages/About';
+// import Episodes from './pages/Episodes';
+// import Author from './pages/Author';
+// import Contact from './pages/Contact';
 
 class App extends React.Component {
   state = {
@@ -28,22 +33,15 @@ class App extends React.Component {
     }
 
     return (
-      <div className="App">
-       <header className="App-header">
-         <img src={logo} className="App-logo" alt="logo" />
-         <p>
-           Edit <code>src/App.js</code> and save to reload.
-         </p>
-         <a
-           className="App-link"
-           href="https://reactjs.org"
-           target="_blank"
-           rel="noopener noreferrer"
-         >
-           Learn React
-         </a>
-       </header>
-     </div>
+      <Router>
+        <div>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          {/* <Route exact path="/episodes" component={Episodes} />
+          <Route exact path="/author" component={Author} />
+          <Route exact path="/contact" component={Contact} /> */}
+        </div>
+      </Router>
     );
   }
 }
