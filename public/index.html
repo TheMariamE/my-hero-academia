@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/logo.ico" />
+    <link rel="stylesheet" href=https://use.fontawesome.com/releases/v5.7.1/css/all.css>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -14,6 +15,26 @@
     <title>Boku no Hero Academia | Anime Project</title>
   </head>
   <body>
+    <div class="loader-container" style="text-align: center;background-color: #040707;">
+      <svg width="51px" height="99.5vh" viewBox="0 0 51 50">
+
+        <rect y="0" width="13" height="50" fill="#CC1B20">
+            <animate attributeName="height" values="50;10;50" begin="0s" dur="1s" repeatCount="indefinite" />
+            <animate attributeName="y" values="0;20;0" begin="0s" dur="1s" repeatCount="indefinite" />
+        </rect>
+
+        <rect x="19" y="0" width="13" height="50" fill="#E51E25">
+            <animate attributeName="height" values="50;10;50" begin="0.2s" dur="1s" repeatCount="indefinite" />
+            <animate attributeName="y" values="0;20;0" begin="0.2s" dur="1s" repeatCount="indefinite" />
+        </rect>
+
+        <rect x="38" y="0" width="13" height="50" fill="#F21F27">
+            <animate attributeName="height" values="50;10;50" begin="0.4s" dur="1s" repeatCount="indefinite" />
+            <animate attributeName="y" values="0;20;0" begin="0.4s" dur="1s" repeatCount="indefinite" />
+        </rect>
+
+        </svg>
+    </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
