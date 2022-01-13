@@ -28,19 +28,23 @@ body {
 .top-bar {
   background-color: rgb(4 7 7);
 }
+
 .top-bar .tb p {
   color: rgb(255 255 255);
   font-size: 25px;
   padding: 15px 0px;
   letter-spacing: 0.5px;
 }
+
 .top-bar .tb p.manga {
   text-align: right;
 }
+
 .tb a {
   color: rgb(248 239 29) !important;
   text-decoration: none;
 }
+
 .tb a:hover {
   color: rgb(229 30 36) !important;
   transition: 0.4s;
@@ -53,12 +57,14 @@ body {
   padding: 35px 0px;
   margin-top: 4em;
 }
+
 #mha-nav .nav-link {
   color: rgb(255 255 255);
   font-size: 35px;
   text-transform: uppercase;
   padding-right: 60px;
 }
+
 #mha-nav .nav-item:last-child .nav-link {
   padding-right: 0px;
 }
@@ -69,16 +75,28 @@ body {
   border: 1px solid rgb(255 255 255);
 }
 
+a.navbar-brand.hide img {
+  width: 250px;
+}
+
 /********************************** Media Queries **********************************/
 
 @media screen and (max-width: 991px) {
+
   .navbar-brand.hide {
     display: block;
   }
+
   #mha-nav {
     margin-top: 0em;
   }
+
+  .top-bar .tb{
+    display: none;
+  }
+
   #mha-nav .nav-link {
     font-size: 25px;
   }
+
 }
