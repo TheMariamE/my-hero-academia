@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+/********************************** Fonts **********************************/
+
+@font-face {
+  font-family: 'FuturaDisPEE';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../src/fonts/FuturaDisPEE.ttf'); 
+  src: local('FuturaDisPEE'), local('FuturaDisPEE'),
+       url('../src/fonts/FuturaDisComDEE.ttf') format('tff'), 
+       url('../src/fonts/FuturaDisDEE.ttf') format('tff'),
+       url('../src/fonts/FuturaDisOutPEE.ttf') format('tff'),
+       url('../src/fonts/FuturaDisPEE.ttf') format('tff')
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'FuturaDisPEE' !important;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/********************************** General **********************************/
+
+.hide{
+  display: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/********************************** Media Queries **********************************/
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 991px) {
+  .navbar-brand.hide {
+    display: block;
   }
 }
