@@ -3,37 +3,50 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        // Navigation
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-          <div class="container">
-            <a class="navbar-brand hide" href="#">Start Bootstrap</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+      <div className='top-bar'>
+        {/* Top Bar */}
+        <div className="container tb">
+          <div className='row'>
+            <div className="col-lg-7">
+              <p>WATCH MY HERO ACADEMIA´S SEASON 5 NOW ON <a href="#" target="_blank">CRUNCHYROLL</a>!</p>
+            </div>
+            <div className="col-lg-5">
+              <p className='manga'>READ MY HERO ACADEMIA´S MANGA <a href="#" target="_blank">HERE</a></p>
+            </div>
+          </div>
+        </div>
+        {/* Navigation */}
+        <nav id="mha-nav" className="navbar navbar-expand-lg fixed-top">
+          <div className="container">
+            <a className="navbar-brand hide" href="#">Start Bootstrap</a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav mx-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home</a>
+            <div className="collapse navbar-collapse" id="navbarResponsive">
+              <ul className="navbar-nav mx-auto">
+                <li className="nav-item active">
+                  <Link className="nav-link" to="/">Home</Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/about-us">About Us</Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Author</a>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/author">Author</Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Episodes</a>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/episodes">Episodes</Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/contact">Contact</Link>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Become a Hero!</a>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/become-a-hero">Become a Hero!</Link>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
+      </div>
     )
 }
 
