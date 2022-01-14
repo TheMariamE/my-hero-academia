@@ -5,11 +5,11 @@ import Footer from '../components/Principal/Footer';
 
 const Author = () => {
     return (
-        <div>
+        <>
             <TopBar />
             <Header />
             <Footer />  
-        </div> 
+        </> 
     )
 }
 

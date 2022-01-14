@@ -5,11 +5,11 @@ import Footer from '../components/Principal/Footer';
 
 const Contact = () => {
     return (
-        <div>
+        <>
             <TopBar />
             <Header />
             <Footer />  
-        </div> 
+        </> 
     )
 }
 
