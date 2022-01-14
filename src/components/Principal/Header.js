@@ -4,7 +4,7 @@ import logo from "../../images/logo.png";
 
 const Header = () => {
     return (
-      <div>
+      <>
         {/* Navigation */}
         <nav id="mha-nav" className="navbar navbar-expand-lg sticky-top">
           <div className="container">
@@ -36,7 +36,7 @@ const Header = () => {
             </div>
           </div>
         </nav>
-      </div>
+        </>
     )
 }
 

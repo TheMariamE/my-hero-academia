@@ -24,6 +24,7 @@ body {
 }
 body{
   min-height: 150vh;
+  height: 100%;
 }
 
 /********************************** Top Bar **********************************/
@@ -68,9 +69,7 @@ body{
 #mha-nav {
   background-color: rgb(229 30 36);
   padding: 35px 0px;
-  /* margin-top: 4em; */
-  /* position: fixed; */
-  width: 100%;
+  top: -1px !important;
 }
 
 #mha-nav .nav-link {
