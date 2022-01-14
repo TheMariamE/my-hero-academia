@@ -4,20 +4,9 @@ import logo from "../../images/logo.png";
 
 const Header = () => {
     return (
-      <div className='top-bar'>
-        {/* Top Bar */}
-        <div className="container tb">
-          <div className='row'>
-            <div className="col-lg-7">
-              <p>WATCH MY HERO ACADEMIA´S SEASON 5 NOW ON <a href="#" target="_blank">CRUNCHYROLL</a>!</p>
-            </div>
-            <div className="col-lg-5">
-              <p className='manga'>READ MY HERO ACADEMIA´S MANGA <a href="#" target="_blank">HERE</a></p>
-            </div>
-          </div>
-        </div>
+      <div>
         {/* Navigation */}
-        <nav id="mha-nav" className="navbar navbar-expand-lg fixed-top">
+        <nav id="mha-nav" className="navbar navbar-expand-lg sticky-top">
           <div className="container">
             <a className="navbar-brand hide" href="/"><img src={logo} alt="My Hero Academia - Logo"></img></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
