@@ -19,6 +19,14 @@ body {
 
 /********************************** General **********************************/
 
+:root {
+  --red: rgb(229 30 36);
+  --yellow: rgb(248 239 29);
+  --black: rgb(4 7 7);
+  --white: rgb(255 255 255);
+  --grey: #f8f8f8;
+}
+
 .hide{
   display: none;
 }
@@ -29,11 +37,11 @@ body{
 /********************************** Top Bar **********************************/
 
 .top-bar {
-  background-color: rgb(4 7 7);
+  background-color: var(--black);
 }
 
 .top-bar .tb p {
-  color: rgb(255 255 255);
+  color: var(--white);
   font-size: 25px;
   padding: 15px 0px;
   letter-spacing: 0.5px;
@@ -45,12 +53,12 @@ body{
 }
 
 .tb a {
-  color: rgb(248 239 29) !important;
+  color: var(--yellow) !important;
   text-decoration: none;
 }
 
 .tb a:hover {
-  color: rgb(229 30 36) !important;
+  color: var(--red) !important;
   transition: 0.4s;
 }
 .sticky {
@@ -66,20 +74,20 @@ body{
 /********************************** Header **********************************/
 
 #mha-nav {
-  background-color: rgb(229 30 36);
+  background-color: var(--red);
   padding: 35px 0px;
   top: -1px !important;
 }
 
 #mha-nav .nav-link {
-  color: rgb(255 255 255);
+  color: var(--white);
   font-size: 35px;
   text-transform: uppercase;
   padding-right: 60px;
 }
 
 #mha-nav .nav-link:hover {
-  color: rgb(248 239 29);
+  color: var(--yellow);
   transition: 0.4s;
 }
 
@@ -90,7 +98,7 @@ body{
 /*Mobile Header*/
 
 #mha-nav button.navbar-toggler {
-  border: 1px solid rgb(255 255 255);
+  border: 1px solid var(--white);
 }
 
 a.navbar-brand.hide img {
@@ -127,22 +135,22 @@ a.navbar-brand.hide img {
 #home-carousel {
   padding-top: 5em;
   padding-bottom: 5em;
-  background-color: #f8f8f8;
+  background-color: var(--grey);
 }
 
 #home-carousel .swiper-slide {
-  background-color: #f8f8f8;
+  background-color: var(--grey);
 }
 
 .swiper-wrapper{
-  height: 40vh !important;
+  height: 38vh !important;
 }
 
 /*SWIPER MODULE CSS*/
 .swiper-slide {
   text-align: center;
   font-size: 2.2rem;
-  background: #fff;
+  background: var(--white);
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -189,19 +197,19 @@ a.navbar-brand.hide img {
 }
 
 #home-carousel .card-title a {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
-  font-size: 35px;
+  font-size: 2.2rem;
   text-transform: uppercase;
 }
 
 .swiper-button-prev, .swiper-button-next {
-  color: #040707 !important;
+  color: var(--black) !important;
   font-weight: 700;
 }
 
 .swiper-button-prev:hover, .swiper-button-next:hover {
-  color: #fff !important;
+  color: var(--white) !important;
   transition: 0.4s;
 }
 
@@ -210,8 +218,66 @@ a.navbar-brand.hide img {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: rgb(229 30 36) !important;
+  background-color: var(--red) !important;
 }
+
+/********************************** Plus Ultra **********************************/
+
+#plus-ultra {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+#plus-ultra h1 {
+  font-size: 4.4rem;
+  margin-bottom: 1.5rem;
+}
+
+#plus-ultra p {
+  font-family: Arial;
+  font-size: 1.40rem;
+  text-align: justify;
+  color: var(--black);
+}
+
+#plus-ultra .alert {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: center;
+  color: var(--black);
+  padding: 10px 25px !important;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+
+.btn-pu {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--white);
+  background-color: var(--red);
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 10px 55px;
+  font-size: 2.2rem;
+  border-radius: 5px;
+  text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-pu:hover {
+  color: var(--yellow);
+  font-size: 2.25rem;
+  transition: 0.4s;
+}
+
 
 /********************************** Media Queries **********************************/
 
