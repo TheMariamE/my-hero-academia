@@ -23,7 +23,6 @@ body {
   display: none;
 }
 body{
-  min-height: 150vh;
   height: 100%;
 }
 
@@ -102,7 +101,7 @@ a.navbar-brand.hide img {
 
 #home-banner {
   background-image: url('./images/mainbanner.jpg');
-  min-height: 85vh;
+  min-height: 80vh;
   /* margin-top: 110px; */
 }
 
@@ -117,7 +116,102 @@ a.navbar-brand.hide img {
   vertical-align: middle !important;
 }
 
+/********************************** Home - Carousel **********************************/
 
+#home-carousel h2 {
+  font-size: 4.4rem;
+  text-align: center;
+  margin-bottom: 0em;
+}
+
+#home-carousel {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: #f8f8f8;
+}
+
+#home-carousel .swiper-slide {
+  background-color: #f8f8f8;
+}
+
+.swiper-wrapper{
+  height: 40vh !important;
+}
+
+/*SWIPER MODULE CSS*/
+.swiper-slide {
+  text-align: center;
+  font-size: 2.2rem;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+/**/
+
+.card.hc-season {
+  border-radius: 20px;
+  border: 0px solid;
+  height: 30vh;
+}
+
+#home-carousel .card-img-overlay {
+  top: auto;
+  background-color: rgb(229 30 36 / 80%);
+  border-radius: 0px 0px 20px 20px;
+}
+
+#home-carousel .card-img {
+  border-radius: 20px;
+}
+
+#home-carousel .card-title a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #040707 !important;
+  font-weight: 700;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  color: #fff !important;
+  transition: 0.4s;
+}
+
+.hc-season .card-title {
+  margin-bottom: 0em;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: rgb(229 30 36) !important;
+}
 
 /********************************** Media Queries **********************************/
 
@@ -149,6 +243,29 @@ a.navbar-brand.hide img {
 
   #mha-nav .nav-link {
     font-size: 25px;
+  }
+
+  #home-banner .container {
+    padding-top: 30vh;
+  }
+  #home-banner img {
+    width: 100%;
+  }
+
+  #home-carousel h2 {
+    font-size: 3.4rem;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .swiper-container {
+    width: 100% !important;
+  } 
+
+  .swiper-slide.swiper-slide-active {
+    width: 100% !important;
   }
 
 }

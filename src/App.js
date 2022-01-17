@@ -1,4 +1,5 @@
 import './App.css';
+import './app.scss';
 // import React, { Component } from 'react';
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
@@ -9,6 +10,10 @@ import Author from './pages/Author';
 import Contact from './pages/Contact';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+// Import Swiper styles
+import '../node_modules/swiper/swiper.min.css'
+import '../node_modules/swiper/modules/pagination/pagination.min.css'
+import '../node_modules/swiper/modules/navigation/navigation.min.css'
 
 class App extends React.Component {
   state = {
