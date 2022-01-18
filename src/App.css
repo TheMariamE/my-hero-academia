@@ -183,7 +183,6 @@ a.navbar-brand.hide img {
 .card.hc-season {
   border-radius: 20px;
   border: 0px solid;
-  height: 30vh;
 }
 
 #home-carousel .card-img-overlay {
@@ -194,6 +193,7 @@ a.navbar-brand.hide img {
 
 #home-carousel .card-img {
   border-radius: 20px;
+  height: 30vh;
 }
 
 #home-carousel .card-title a {
@@ -201,6 +201,13 @@ a.navbar-brand.hide img {
   text-decoration: none;
   font-size: 2.2rem;
   text-transform: uppercase;
+  text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+}
+
+#home-carousel .card-title a:hover {
+  color: var(--yellow);
+  transition: 0.4s;
+  font-size: 2.25rem;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -253,6 +260,7 @@ a.navbar-brand.hide img {
 }
 
 .btn-pu {
+  margin-top: 1.5rem;
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
@@ -269,6 +277,7 @@ a.navbar-brand.hide img {
   font-size: 2.2rem;
   border-radius: 5px;
   text-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  box-shadow: 4px 4px 12px rgb(0 0 0 / 50%);
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
