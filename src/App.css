@@ -327,7 +327,8 @@ a.navbar-brand.hide img {
     width: 100%;
   }
 
-  #home-carousel h2 {
+  #home-carousel h2,
+  #plus-ultra h1 {
     font-size: 3.4rem;
   }
 
