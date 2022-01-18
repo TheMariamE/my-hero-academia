@@ -208,6 +208,7 @@ a.navbar-brand.hide img {
   color: var(--yellow);
   transition: 0.4s;
   font-size: 2.25rem;
+  letter-spacing: 2px;
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -228,7 +229,7 @@ a.navbar-brand.hide img {
   background-color: var(--red) !important;
 }
 
-/********************************** Plus Ultra **********************************/
+/********************************** Home - Plus Ultra **********************************/
 
 #plus-ultra {
   padding-top: 5em;
@@ -287,6 +288,22 @@ a.navbar-brand.hide img {
   transition: 0.4s;
 }
 
+#plus-ultra .p2{
+  place-self: end;
+}
+
+#plus-ultra .p3 img{
+  width: 275px;
+  float: right;
+}
+
+/********************************** Home - Gallery **********************************/
+
+#gallery{
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: var(--yellow);
+}
 
 /********************************** Media Queries **********************************/
 
@@ -298,6 +315,15 @@ a.navbar-brand.hide img {
   
   .top-bar .tb p {
     font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 1220px) {
+
+  #plus-ultra .p3 img {
+    width: 100%;
+    float: initial;
   }
 
 }
@@ -330,6 +356,10 @@ a.navbar-brand.hide img {
   #home-carousel h2,
   #plus-ultra h1 {
     font-size: 3.4rem;
+  }
+
+  #plus-ultra .row {
+    margin-top: 3.5rem;
   }
 
 }

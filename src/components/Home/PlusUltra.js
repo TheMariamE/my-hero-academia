@@ -1,11 +1,15 @@
 import React from 'react';
+import p1 from "../../images/pu-1.png";
+import p2 from "../../images/pu-2.png";
+import p3 from "../../images/pu-3.png";
+import p4 from "../../images/pu-4.png";
 
 const PlusUltra = () => {
     return (
         <div id="plus-ultra" className='container'>
             <div className='row'>
                 <div className='col-lg-6'>
-                    <div className='col-sm-12 col-md-6 col-lg-5 col-xl-5'>
+                    <div className='col-sm-12 col-md-7 col-lg-6 col-xl-5'>
                         <div class="alert alert-light" role="alert">Plus Ultra</div>
                     </div>
                     <h1>BOKU NO HERO ACADEMIA</h1>
@@ -14,7 +18,20 @@ const PlusUltra = () => {
                     <a class="btn-pu" href="https://boku-no-hero-academia.com/" role="button" rel="noreferrer" target="_blank">Read the manga now!</a>
                 </div>
                 <div className='col-lg-6'>
-
+                    <div className='row' data-masonry='{ "percentPosition" : true }'>
+                        <div className='col-sm-6 col-lg-6 mb-4'>
+                            <a href="https://www.viz.com/read/manga/my-hero-academia-volume-4/product/3770" rel="noreferrer" target="_blank"><img className="card-img" src={p1} alt="My Hero Academia - Logo"></img></a>
+                        </div>
+                        <div className='col-sm-6 col-lg-6 mb-4 p2'>
+                            <a href="https://www.viz.com/read/manga/my-hero-academia-volume-17/product/5820" rel="noreferrer" target="_blank"><img className="card-img" src={p2} alt="My Hero Academia - Logo"></img></a>
+                        </div>
+                        <div className='col-sm-6 col-lg-6 mb-4 p3'>
+                            <a href="https://www.viz.com/read/manga/my-hero-academia-volume-30/product/6992" rel="noreferrer" target="_blank"><img className="card-img" src={p3} alt="My Hero Academia - Logo"></img></a>
+                        </div>
+                        <div className='col-sm-6 col-lg-6 mb-4'>
+                            <a href="https://www.viz.com/read/manga/my-hero-academia-volume-24/product/6288" rel="noreferrer" target="_blank"><img className="card-img" src={p4} alt="My Hero Academia - Logo"></img></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
