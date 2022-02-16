@@ -303,6 +303,7 @@ a.navbar-brand.hide img {
   padding-top: 5em;
   padding-bottom: 5em;
   background-color: var(--yellow);
+  margin-bottom: 0px;
 }
 
 #gallery .row .col-*{

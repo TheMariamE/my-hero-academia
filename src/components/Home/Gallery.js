@@ -55,50 +55,41 @@ const Gallery = () => {
   const itemData = [
     {
       img: g1,
-      title: 'Breakfast',
-      author: '@bkristastucchio',
+      title: 'My Hero Academia - Plus Ultra',
       featured: true,
     },
     {
       img: g2,
-      title: 'Burger',
-      author: '@rollelflex_graphy726',
+      title: 'My Hero Academia - Eijiro Kirishima',
     },
     {
       img: g3,
-      title: 'Camera',
-      author: '@helloimnik',
+      title: 'My Hero Academia - Shoto Todoroki',
     },
     {
       img: g4,
-      title: 'Coffee',
-      author: '@nolanissac',
+      title: 'My Hero Academia - Ochaco Uraraka',
     },
     {
       img: g5,
-      title: 'Hats',
-      author: '@hjrc33',
+      title: 'My Hero Academia - Plus Ultra 2',
       featured: true,
     },
     {
       img: g6,
-      title: 'Honey',
-      author: '@arwinneil',
+      title: 'My Hero Academia - Tsuyu Asui',
     },
     {
       img: g7,
-      title: 'Basketball',
-      author: '@tjdragotta',
+      title: 'My Hero Academia - Fumikagi Tokoyami',
     },
     {
       img: g8,
-      title: 'Fern',
-      author: '@katie_wasserman',
+      title: 'My Hero Academia - Tenya Iida',
     },
     {
       img: g9,
-      title: 'Mushrooms',
-      author: '@silverdalex',
+      title: 'My Hero Academia - Denki Kaminari',
     }
   ];
         // <div id="gallery" className='container-fluid'>
