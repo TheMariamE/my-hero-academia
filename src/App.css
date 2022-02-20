@@ -86,7 +86,8 @@ body{
   padding-right: 60px;
 }
 
-#mha-nav .nav-link:hover {
+#mha-nav .nav-link:hover,
+#mha-nav .nav-link:focus {
   color: var(--yellow);
   transition: 0.4s;
 }
@@ -103,6 +104,65 @@ body{
 
 a.navbar-brand.hide img {
   width: 250px;
+}
+
+/********************************** Footer **********************************/
+
+footer #footer {
+  background-color: var(--black);
+}
+
+#footer {
+  padding: 80px 0px;
+}
+
+#f-logo {
+  width: -webkit-fill-available;
+}
+
+#footer p {
+  color: var(--white);
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+
+ul.footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+ul.footer-nav a {
+  padding-left: 0px !important;
+  color: var(--white);
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+#footer h6 {
+  letter-spacing: 1px;
+  color: var(--yellow);
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+#footer .nav-link {
+  padding-bottom: 0px;
+}
+
+#footer .nav-link:hover, 
+#footer .nav-link:focus {
+  color: var(--red);
+}
+
+#copyright{
+  background-color: var(--red);
+}
+
+#copyright p {
+  color: var(--white);
+  padding-top: 15px;
+  letter-spacing: 1px;
+  font-size: 20px;
 }
 
 /********************************** Home - Banner **********************************/
@@ -337,6 +397,12 @@ a.navbar-brand.hide img {
     float: initial;
   }
 
+}
+
+@media screen and (min-width: 992px) {
+  #footer .desc img {
+    padding-right: 75px;
+  }
 }
 
 @media screen and (max-width: 991px) {
