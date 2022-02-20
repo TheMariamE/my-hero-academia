@@ -117,13 +117,13 @@ footer #footer {
 }
 
 #f-logo {
-  width: -webkit-fill-available;
+  width: 75%;
 }
 
 #footer p {
   color: var(--white);
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 1.40rem;
 }
 
 ul.footer-nav {
@@ -134,7 +134,7 @@ ul.footer-nav {
 ul.footer-nav a {
   padding-left: 0px !important;
   color: var(--white);
-  font-size: 20px;
+  font-size: 1.40rem;
   letter-spacing: 1px;
 }
 
@@ -162,7 +162,7 @@ ul.footer-nav a {
   color: var(--white);
   padding-top: 15px;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 /********************************** Home - Banner **********************************/
@@ -403,6 +403,9 @@ ul.footer-nav a {
   #footer .desc img {
     padding-right: 75px;
   }
+  #footer .desc p {
+    padding-right: 15px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -463,6 +466,10 @@ ul.footer-nav a {
 
   .swiper-slide.swiper-slide-active {
     width: 100% !important;
+  }
+
+  #f-logo {
+    width: -webkit-fill-available !important;
   }
 
 }

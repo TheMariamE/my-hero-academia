@@ -11,7 +11,7 @@ const Footer = () => {
             <div id="footer" className='container-fluid'>
                 <div className='container'>
                     <div className='row'>
-                        <div className='desc col-lg-5'>
+                        <div className='desc col-lg-6'>
                             <Link className="nav-link" to="/">
                                 <img id="f-logo" src={logo} alt="My Hero Academia - Main Banner"></img>
                             </Link>
@@ -56,7 +56,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className='col-lg-3'>
+                        <div className='col-lg-2'>
                             <h6>Follow Us</h6>
                         </div>
                     </div>
