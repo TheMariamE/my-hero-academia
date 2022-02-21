@@ -437,6 +437,24 @@ ul.footer-nav a {
   margin-bottom: 0px;
 }
 
+/********************************** About Us - Grid **********************************/
+
+#au-grid {
+  background-color: var(--black);
+}
+
+#au-grid .row {
+  padding: 25px 0px;
+}
+
+#au-grid img {
+  width: -webkit-fill-available;
+}
+
+#au-grid .au-r2 {
+  margin-top: 25px;
+}
+
 /********************************** Media Queries **********************************/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -534,6 +552,14 @@ ul.footer-nav a {
 
   #copyright {
     text-align: center;
+  }
+
+  #au-grid .au-r1{
+    margin-top: 25px;
+  }
+
+  #au-banner h1 {
+    font-size: 3rem !important;
   }
 
 }
