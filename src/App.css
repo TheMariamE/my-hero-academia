@@ -202,6 +202,7 @@ ul.footer-nav a {
   background-image: url('./images/mainbanner.jpg');
   min-height: 80vh;
   /* margin-top: 110px; */
+  background-size: cover;
 }
 
 #home-banner .container {
@@ -405,6 +406,35 @@ ul.footer-nav a {
 
 .css-pxxd1-MuiImageListItem-root .MuiImageListItem-img {
   object-fit: unset !important;
+}
+
+/********************************** About Us - Banner **********************************/
+
+#au-banner {
+  background-image: url('./images/about-us.jpg');
+  min-height: 65vh;
+  /* margin-top: 110px; */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+#au-banner img {
+  width: 100%;
+  vertical-align: middle !important;
+}
+
+.desc-au-banner{
+  display: flex;
+  align-items: center;
+  white-space: pre-line;
+}
+
+#au-banner h1 {
+  font-size: 5rem;
+  margin-bottom: 0px;
 }
 
 /********************************** Media Queries **********************************/
