@@ -17,40 +17,40 @@ const AUGrid = () => {
     <>
     <div id="au-grid" className='container-fluid'>
       <div className='row'>
-        <div className='col-lg-2 au-r1'>
+        <div className='col-lg-2 col-sm-3 au-r1'>
           <img src={g1} alt="My Hero Academia - Izuku Midoriya"></img>
         </div>
-        <div className='col-lg-2 au-r1'>
+        <div className='col-lg-2 col-sm-3 au-r1'>
           <img src={g2} alt="My Hero Academia - Shoto Todoroki"></img>
         </div>
-        <div className='col-lg-2 au-r1'>
+        <div className='col-lg-2 col-sm-3 au-r1'>
           <img src={g3} alt="My Hero Academia - Katsuki Bakugo"></img>
         </div>
-        <div className='col-lg-2 au-r1'>
+        <div className='col-lg-2 col-sm-3 au-r1'>
           <img src={g4} alt="My Hero Academia - Eijiro Kirishima"></img>
         </div>
-        <div className='col-lg-2 au-r1'>
+        <div className='col-lg-2 col-sm-3 au-r1'>
           <img src={g5} alt="My Hero Academia - Tsuyu Asui"></img>
         </div>
-        <div className='col-lg-2 au-r1'>
+        <div className='col-lg-2 col-sm-3 au-r1'>
           <img src={g6} alt="My Hero Academia - Hitoshi Shinso"></img>
         </div>
-        <div className='col-lg-2 au-r2'>
+        <div className='col-lg-2 col-sm-3 au-r2'>
           <img src={g7} alt="My Hero Academia - Tenya Iida"></img>
         </div>
-        <div className='col-lg-2 au-r2'>
+        <div className='col-lg-2 col-sm-3 au-r2'>
           <img src={g8} alt="My Hero Academia - Itsuka Kendo"></img>
         </div>
-        <div className='col-lg-2 au-r2'>
+        <div className='col-lg-2 col-sm-3 au-r2'>
           <img src={g9} alt="My Hero Academia - Tamaki Amajiki"></img>
         </div>
-        <div className='col-lg-2 au-r2'>
+        <div className='col-lg-2 col-sm-3 au-r2'>
           <img src={g10} alt="My Hero Academia - Mirio Togata"></img>
         </div>
-        <div className='col-lg-2 au-r2'>
+        <div className='col-lg-2 col-sm-3 au-r2'>
           <img src={g11} alt="My Hero Academia - Nejire Hado"></img>
         </div>
-        <div className='col-lg-2 au-r2'>
+        <div className='col-lg-2 col-sm-3 au-r2'>
           <img src={g12} alt="My Hero Academia - Mei Hatsume"></img>
         </div>
       </div>

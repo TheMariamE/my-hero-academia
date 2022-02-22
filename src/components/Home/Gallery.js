@@ -92,30 +92,5 @@ const Gallery = () => {
       title: 'My Hero Academia - Denki Kaminari',
     }
   ];
-        // <div id="gallery" className='container-fluid'>
-        //     {/* <Grid container spacing={2}>
-        //         <Grid item xs={6} md={4}>
-        //             <img className="card-img" src={g1} alt="My Hero Academia - Logo"></img>
-        //         </Grid>
-        //         <Grid item xs={6} md={2}>
-        //             <img className="card-img" src={g2} alt="My Hero Academia - Logo"></img>
-        //         </Grid>
-        //         <Grid item xs={6} md={2}>
-        //             <img className="card-img" src={g3} alt="My Hero Academia - Logo"></img>
-        //         </Grid>
-        //         <Grid item xs={6} md={2}>
-        //             <img className="card-img" src={g1} alt="My Hero Academia - Logo"></img>
-        //         </Grid>
-        //         <Grid item xs={6} md={2}>
-        //             <img className="card-img" src={g1} alt="My Hero Academia - Logo"></img>
-        //         </Grid>
-        //         <Grid item xs={6} md={4}>
-        //             <img className="card-img" src={g1} alt="My Hero Academia - Logo"></img>
-        //         </Grid>
-        //         <Grid item xs={6} md={4}>
-        //             <img className="card-img" src={g4} alt="My Hero Academia - Logo"></img>
-        //         </Grid>
-        //     </Grid> */}
-        // </div>
 
 export default Gallery;
