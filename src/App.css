@@ -455,6 +455,49 @@ ul.footer-nav a {
   margin-top: 25px;
 }
 
+/********************************** About Us - Staff **********************************/
+
+#staff-tab {
+  padding: 80px 0px;
+}
+
+#staff-tab h2 {
+  font-size: 4.4rem;
+  text-align: center;
+  margin-bottom: 0em;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+  place-content: center;
+}
+
+#full-width-tab-0, 
+#full-width-tab-1, 
+#full-width-tab-2,
+#full-width-tab-3 {
+  margin: 15px;
+  background-color: var(--red);
+  color: var(--white);
+  font-family: FuturaDisPEE;
+  font-size: 1.40rem;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  letter-spacing: 1px;
+}
+
+.css-1vw5i9y-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  opacity: 1;
+  background-color: var(--yellow) !important;
+  color: var(--black) !important;
+  transition: 0.4s;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
 /********************************** Media Queries **********************************/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
