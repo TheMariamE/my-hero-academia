@@ -617,8 +617,30 @@ ul.footer-nav a {
     width: 100% !important;
   }
 
+  #plus-ultra h1 {
+    text-align: center;
+  }
+
   #f-logo {
     width: -webkit-fill-available !important;
+  }
+  
+  #full-width-tab-0, 
+  #full-width-tab-1, 
+  #full-width-tab-2, 
+  #full-width-tab-3 {
+    min-width: 90%;
+    display: flex;
+    margin: 15px;
+    place-content: center;
+}
+
+}
+
+@media screen and (max-width: 340px) {
+
+  a.navbar-brand.hide img {
+    width: 175px;
   }
 
 }

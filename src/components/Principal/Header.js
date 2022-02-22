@@ -6,7 +6,7 @@ const Header = () => {
     return (
       <>
         {/* Navigation */}
-        <nav id="mha-nav" className="navbar navbar-expand-lg sticky-top">
+        <nav id="mha-nav" className="navbar navbar-expand-lg sticky-top navbar-dark">
           <div className="container">
             <a className="navbar-brand hide" href="/"><img src={logo} alt="My Hero Academia - Logo"></img></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
