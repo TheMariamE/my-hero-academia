@@ -511,14 +511,22 @@ ul.footer-nav a {
   font-family: FuturaDisPEE;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-size: 1.40rem;
+  font-size: 1.40rem !important;
   text-align: center;
 }
 
 .css-hk6gwf-MuiImageListItemBar-subtitle {
   text-align: center;
-  font-size: 0.9rem;
-  line-height: 1.8rem;
+  font-size: 1rem !important;
+  line-height: 1.8rem !important;
+}
+
+.css-ztrqiq-MuiImageListItemBar-root {
+  background-color: rgb(229 30 36 / 70%) !important;
+}
+
+.css-19kzrtu {
+  padding: 15px !important;
 }
 
 /********************************** Media Queries **********************************/

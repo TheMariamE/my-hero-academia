@@ -1,11 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import SwipeableViews from 'react-swipeable-views';
-import{ Tab, Tabs, AppBar, Typography, Box } from '@mui/material/';
-import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
-import ImageListItemBar from '@mui/material/ImageListItemBar';
-import IconButton from '@mui/material/IconButton';
+import { Tab, Tabs, AppBar, Typography, Box, ImageList, ImageListItem, ImageListItemBar, IconButton } from '@mui/material/';
+import images from './images.js';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -146,148 +143,89 @@ export default function Staff() {
 
 const staff = [
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Breakfast',
-    author: '@bkristastucchio',
+    img: images.nezu,
+    title: 'Nezu',
+    author: 'Principal',
     rows: 2,
     cols: 2,
     featured: true,
   },
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Burger',
-    author: '@rollelflex_graphy726',
+    img: images.rgirl,
+    title: 'Recovery Girl',
+    author: 'Nurse',
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Camera',
-    author: '@helloimnik',
+    img: images.lrush,
+    title: 'Lunch Rush',
+    author: 'Chef',
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
-    author: '@nolanissac',
+    img: images.thirteen,
+    title: 'Thirteen',
+    author: 'Rescue Training Specialist',
     cols: 2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
-    author: '@hjrc33',
-    cols: 2,
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-    title: 'Honey',
-    author: '@arwinneil',
-    rows: 2,
-    cols: 2,
-    featured: true,
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-    title: 'Basketball',
-    author: '@tjdragotta',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-    title: 'Fern',
-    author: '@katie_wasserman',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-    title: 'Mushrooms',
-    author: '@silverdalex',
-    rows: 2,
-    cols: 2,
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-    title: 'Tomato basil',
-    author: '@shelleypauls',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
-    author: '@peterlaster',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
-    author: '@southside_customs',
+    img: images.hdog,
+    title: 'Hound Dog',
+    author: 'Guidance Counselor',
     cols: 2,
   },
 ];
 
 const teachers = [
   {
-    img: 'https://images.unsplash.com/photo-1551782450-a2132b4ba21d',
-    title: 'Breakfast',
-    author: '@bkristastucchio',
+    img: images.allmight,
+    title: 'All Might',
+    author: 'Heroics Teacher',
     rows: 2,
     cols: 2,
     featured: true,
   },
   {
-    img: 'https://images.unsplash.com/photo-1522770179533-24471fcdba45',
-    title: 'Burger',
-    author: '@rollelflex_graphy726',
+    img: images.eraserhead,
+    title: 'Eraser Head',
+    author: 'Class 1-A Homeroom Teacher',
   },
   {
-    img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
-    title: 'Camera',
-    author: '@helloimnik',
+    img: images.presentMic,
+    title: 'Present Mic',
+    author: 'English Teacher',
   },
   {
-    img: 'https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c',
-    title: 'Coffee',
-    author: '@nolanissac',
+    img: images.cementoss,
+    title: 'Cementoss',
+    author: 'Modern Literature Teacher',
     cols: 2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8',
-    title: 'Hats',
-    author: '@hjrc33',
+    img: images.midnight,
+    title: 'Midnight',
+    author: 'Modern Hero Art History Teacher',
     cols: 2,
   },
   {
-    img: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62',
-    title: 'Honey',
-    author: '@arwinneil',
+    img: images.sniper,
+    title: 'Snipe',
+    author: 'Heroics Teacher',
     rows: 2,
     cols: 2,
     featured: true,
   },
   {
-    img: 'https://images.unsplash.com/photo-1516802273409-68526ee1bdd6',
-    title: 'Basketball',
-    author: '@tjdragotta',
+    img: images.ectoplasm,
+    title: 'Ectoplasm',
+    author: 'Mathematics Teacher',
   },
   {
-    img: 'https://images.unsplash.com/photo-1518756131217-31eb79b20e8f',
-    title: 'Fern',
-    author: '@katie_wasserman',
+    img: images.vladking,
+    title: 'Vlad King',
+    author: 'Class 1-B Homeroom Teacher',
   },
   {
-    img: 'https://images.unsplash.com/photo-1597645587822-e99fa5d45d25',
-    title: 'Mushrooms',
-    author: '@silverdalex',
-    rows: 2,
-    cols: 2,
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1567306301408-9b74779a11af',
-    title: 'Tomato basil',
-    author: '@shelleypauls',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1471357674240-e1a485acb3e1',
-    title: 'Sea star',
-    author: '@peterlaster',
-  },
-  {
-    img: 'https://images.unsplash.com/photo-1589118949245-7d38baf380d6',
-    title: 'Bike',
-    author: '@southside_customs',
-    cols: 2,
+    img: images.grantorino,
+    title: 'Gran Torino',
+    author: 'Homeroom Teacher (formerly)',
   },
 ];

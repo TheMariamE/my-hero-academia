@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../../images/logo.png";
+import images from './images.js';
 
 const Banner = () => {
     return (
@@ -7,7 +7,7 @@ const Banner = () => {
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <img src={logo} alt="My Hero Academia - Main Banner"></img>
+                        <img src={images.logo} alt="My Hero Academia - Main Banner"></img>
                     </div>
                     <div class="col-lg-6 desc-au-banner">
                         <h1>ABOUT 
