@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import SwipeableViews from 'react-swipeable-views';
 import { Tab, Tabs, AppBar, Typography, Box, ImageList, ImageListItem, ImageListItemBar, IconButton } from '@mui/material/';
-import images from './images.js';
+import teachers from './teachers.js';
+import staff from './ua-staff.js';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -139,93 +140,4 @@ export default function Staff() {
     </div>
     </>
   )
-}
-
-const staff = [
-  {
-    img: images.nezu,
-    title: 'Nezu',
-    author: 'Principal',
-    rows: 2,
-    cols: 2,
-    featured: true,
-  },
-  {
-    img: images.rgirl,
-    title: 'Recovery Girl',
-    author: 'Nurse',
-  },
-  {
-    img: images.lrush,
-    title: 'Lunch Rush',
-    author: 'Chef',
-  },
-  {
-    img: images.thirteen,
-    title: 'Thirteen',
-    author: 'Rescue Training Specialist',
-    cols: 2,
-  },
-  {
-    img: images.hdog,
-    title: 'Hound Dog',
-    author: 'Guidance Counselor',
-    cols: 2,
-  },
-];
-
-const teachers = [
-  {
-    img: images.allmight,
-    title: 'All Might',
-    author: 'Heroics Teacher',
-    rows: 2,
-    cols: 2,
-    featured: true,
-  },
-  {
-    img: images.eraserhead,
-    title: 'Eraser Head',
-    author: 'Class 1-A Homeroom Teacher',
-  },
-  {
-    img: images.presentMic,
-    title: 'Present Mic',
-    author: 'English Teacher',
-  },
-  {
-    img: images.cementoss,
-    title: 'Cementoss',
-    author: 'Modern Literature Teacher',
-    cols: 2,
-  },
-  {
-    img: images.midnight,
-    title: 'Midnight',
-    author: 'Modern Hero Art History Teacher',
-    cols: 2,
-  },
-  {
-    img: images.sniper,
-    title: 'Snipe',
-    author: 'Heroics Teacher',
-    rows: 2,
-    cols: 2,
-    featured: true,
-  },
-  {
-    img: images.ectoplasm,
-    title: 'Ectoplasm',
-    author: 'Mathematics Teacher',
-  },
-  {
-    img: images.vladking,
-    title: 'Vlad King',
-    author: 'Class 1-B Homeroom Teacher',
-  },
-  {
-    img: images.grantorino,
-    title: 'Gran Torino',
-    author: 'Homeroom Teacher (formerly)',
-  },
-];
+};
