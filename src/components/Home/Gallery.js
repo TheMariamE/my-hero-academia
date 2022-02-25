@@ -4,15 +4,7 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 // import ImageListItemBar from '@mui/material/ImageListItemBar';
 // import IconButton from '@mui/material/IconButton';
-import g1 from "../../images/gallery-1.jpg";
-import g2 from "../../images/gallery-2.jpg";
-import g3 from "../../images/gallery-3.jpg";
-import g4 from "../../images/gallery-4.jpg";
-import g5 from "../../images/gallery-5.jpg";
-import g6 from "../../images/gallery-6.jpg";
-import g7 from "../../images/gallery-7.jpg";
-import g8 from "../../images/gallery-8.jpg";
-import g9 from "../../images/gallery-9.jpg";
+import images from './images.js';
 
 function srcset(image, width, height, rows = 1, cols = 12) {
     return {
@@ -54,41 +46,41 @@ const Gallery = () => {
   
   const itemData = [
     {
-      img: g1,
+      img: images.g1,
       title: 'My Hero Academia - Plus Ultra',
       featured: true,
     },
     {
-      img: g2,
+      img: images.g2,
       title: 'My Hero Academia - Eijiro Kirishima',
     },
     {
-      img: g3,
+      img: images.g3,
       title: 'My Hero Academia - Shoto Todoroki',
     },
     {
-      img: g4,
+      img: images.g4,
       title: 'My Hero Academia - Ochaco Uraraka',
     },
     {
-      img: g5,
+      img: images.g5,
       title: 'My Hero Academia - Plus Ultra 2',
       featured: true,
     },
     {
-      img: g6,
+      img: images.g6,
       title: 'My Hero Academia - Tsuyu Asui',
     },
     {
-      img: g7,
+      img: images.g7,
       title: 'My Hero Academia - Fumikagi Tokoyami',
     },
     {
-      img: g8,
+      img: images.g8,
       title: 'My Hero Academia - Tenya Iida',
     },
     {
-      img: g9,
+      img: images.g9,
       title: 'My Hero Academia - Denki Kaminari',
     }
   ];

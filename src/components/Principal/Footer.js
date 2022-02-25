@@ -1,11 +1,5 @@
 import React from 'react';
-import logo from "../../images/logo.png";
-import fandom from "../../images/fandom.png";
-import insta from "../../images/instagram.png";
-import wiki from "../../images/wikipedia.png";
-import twitter from "../../images/twitter.png";
-import imdb from "../../images/imdb.png";
-import tt from "../../images/tiktok.png";
+import images from './images.js';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -19,7 +13,7 @@ const Footer = () => {
                     <div className='row'>
                         <div className='desc col-lg-6'>
                             <Link className="nav-link" to="/">
-                                <img id="f-logo" src={logo} alt="My Hero Academia - Main Banner"></img>
+                                <img id="f-logo" src={images.logo} alt="My Hero Academia - Main Banner"></img>
                             </Link>
                             <p>
                             Manga written and illustrated by Kohei Horikoshi and is published in Weekly Shonen Jump. The first chapter was published on July 7, 2014, in issue 32 of Weekly Shonen Jump.
@@ -69,17 +63,17 @@ const Footer = () => {
                                     <ul className="footer-nav">
                                         <li>
                                             <a className="nav-link" href="https://myheroacademia.fandom.com/" target="_blank" rel="noreferrer">
-                                                <img src={fandom} alt="My Hero Academia - Fandom"></img>
+                                                <img src={images.fandom} alt="My Hero Academia - Fandom"></img>
                                             </a>
                                         </li>
                                         <li>
                                             <a className="nav-link" href="https://www.instagram.com/my.hero.academia/" target="_blank" rel="noreferrer">
-                                                <img src={insta} alt="My Hero Academia - Instagram"></img>
+                                                <img src={images.insta} alt="My Hero Academia - Instagram"></img>
                                             </a>
                                         </li>
                                         <li>
                                             <a className="nav-link" href="https://en.wikipedia.org/wiki/My_Hero_Academia" target="_blank" rel="noreferrer">
-                                                <img src={wiki} alt="My Hero Academia - Wikipedia"></img>
+                                                <img src={images.wiki} alt="My Hero Academia - Wikipedia"></img>
                                             </a>
                                         </li>
                                     </ul>
@@ -88,17 +82,17 @@ const Footer = () => {
                                     <ul className="footer-nav">
                                         <li>
                                             <a className="nav-link" href="https://twitter.com/MHAOfficial" target="_blank" rel="noreferrer">
-                                                <img src={twitter} alt="My Hero Academia - Twitter"></img>
+                                                <img src={images.twitter} alt="My Hero Academia - Twitter"></img>
                                             </a>
                                         </li>
                                         <li>
                                             <a className="nav-link" href="https://www.imdb.com/title/tt5626028/" target="_blank" rel="noreferrer">
-                                                <img id="imdb-logo" src={imdb} alt="My Hero Academia - IMDB"></img>
+                                                <img id="imdb-logo" src={images.imdb} alt="My Hero Academia - IMDB"></img>
                                             </a>
                                         </li>
                                         <li>
                                             <a className="nav-link" href="https://www.tiktok.com/@myheroacademiagame?lang=en" target="_blank" rel="noreferrer">
-                                                <img src={tt} alt="My Hero Academia - Tik Tok"></img>
+                                                <img src={images.tt} alt="My Hero Academia - Tik Tok"></img>
                                             </a>
                                         </li>
                                     </ul>

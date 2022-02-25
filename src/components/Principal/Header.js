@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import logo from "../../images/logo.png";
+import images from './images.js';
 
 const Header = () => {
     return (
@@ -8,7 +8,7 @@ const Header = () => {
         {/* Navigation */}
         <nav id="mha-nav" className="navbar navbar-expand-lg sticky-top navbar-dark">
           <div className="container">
-            <a className="navbar-brand hide" href="/"><img src={logo} alt="My Hero Academia - Logo"></img></a>
+            <a className="navbar-brand hide" href="/"><img src={images.logo} alt="My Hero Academia - Logo"></img></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
