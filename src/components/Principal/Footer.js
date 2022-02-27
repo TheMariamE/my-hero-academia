@@ -7,6 +7,15 @@ const Footer = () => {
         <>
         <footer>
             {/* Suscription */}
+            <div id="f-suscription" className='container'>
+                <div className='row'>
+                    <div className='col-lg-7'>
+                        <h2>Suscribe to our daily hero based newsletter!</h2>
+                    </div>
+                    <div className='col-lg-5'>
+                    </div>
+                </div>    
+            </div>
             {/* Footer */}
             <div id="footer" className='container-fluid'>
                 <div className='container'>
