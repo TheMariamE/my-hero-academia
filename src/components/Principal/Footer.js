@@ -1,6 +1,7 @@
 import React from 'react';
 import images from './images.js';
 import { Link } from 'react-router-dom';
+import Suscription from './SuscriptionForm.js'
 
 const Footer = () => {
     return (
@@ -13,6 +14,7 @@ const Footer = () => {
                         <h2>Suscribe to our daily hero based newsletter!</h2>
                     </div>
                     <div className='col-lg-5'>
+                        <Suscription></Suscription>
                     </div>
                 </div>    
             </div>

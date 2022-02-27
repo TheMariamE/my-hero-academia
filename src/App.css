@@ -126,6 +126,48 @@ a.navbar-brand.hide img {
   box-shadow: 0px 15px 20px 10px rgb(0 0 0 / 50%);
 }
 
+#form-input-control-name-sus,
+#form-input-control-email-sus,
+#f-suscription button{
+  width: 100%;
+}
+
+#form-input-control-name-sus {
+  margin-bottom: 10px;
+}
+
+#form-input-control-name-sus,
+#form-input-control-email-sus {
+  font-size: 1.40rem;
+  letter-spacing: 1.5px;
+  padding: 15px 25px;
+  border: none;
+  background-color: rgb(255 255 255 / 75%);
+  color: var(--black);
+}
+
+#f-suscription button {
+  background-color: var(--yellow);
+  border: none;
+  height: 100%;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+#f-suscription .col-lg-8 {
+  padding-right: 0px !important;
+}
+
+#form-input-control-email-sus-error-message {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+button.swal2-confirm.swal2-styled {
+  background-color: var(--red);
+}
+
 footer #footer {
   background-color: var(--black);
   z-index: 2;
