@@ -673,6 +673,23 @@ ul.footer-nav a {
     grid-column-end: span 4 !important;
   }
 
+  .css-102lvwq-MuiImageList-root {
+    display: inline !important;
+  }
+
+  li.MuiImageListItem-root.MuiImageListItem-standard.css-pxxd1-MuiImageListItem-root {
+      margin-bottom: 15px !important;
+  }
+
+  .css-heg063-MuiTabs-flexContainer {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  #f-suscription .col-lg-5 {
+    margin-top: 10px;
+  }
+
   #f-suscription {
     padding: 4rem 4rem;
   }
