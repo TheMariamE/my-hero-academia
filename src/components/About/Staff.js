@@ -4,6 +4,8 @@ import SwipeableViews from 'react-swipeable-views';
 import { Tab, Tabs, AppBar, Typography, Box, ImageList, ImageListItem, ImageListItemBar, IconButton } from '@mui/material/';
 import teachers from './teachers.js';
 import staff from './ua-staff.js';
+import class1a from './class1a.js';
+import class1b from './class1b.js';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -131,10 +133,62 @@ export default function Staff() {
               </ImageList>
             </TabPanel>
             <TabPanel value={value} index={2}>
-              CLASS 1-A
+            <ImageList sx={{
+              gridTemplateColumns: 'repeat(4, 1fr) !important',
+              gap: '15px !important',
+              }}>
+                {class1a.map((item) => (
+                  <ImageListItem key={item.img}>
+                    <img
+                      src={`${item.img}?w=248&fit=crop&auto=format`}
+                      srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                      alt={item.title}
+                      loading="lazy"
+                    />
+                    <ImageListItemBar
+                      title={item.title}
+                      subtitle={item.author}
+                      actionIcon={
+                        <IconButton
+                          sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
+                          aria-label={`info about ${item.title}`}
+                        >
+                          {/* <InfoIcon /> */}
+                        </IconButton>
+                      }
+                    />
+              </ImageListItem>
+                ))}
+              </ImageList>
             </TabPanel>
             <TabPanel value={value} index={3}>
-              CLASS 1-B
+            <ImageList sx={{
+              gridTemplateColumns: 'repeat(4, 1fr) !important',
+              gap: '15px !important',
+              }}>
+                {class1b.map((item) => (
+                  <ImageListItem key={item.img}>
+                    <img
+                      src={`${item.img}?w=248&fit=crop&auto=format`}
+                      srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                      alt={item.title}
+                      loading="lazy"
+                    />
+                    <ImageListItemBar
+                      title={item.title}
+                      subtitle={item.author}
+                      actionIcon={
+                        <IconButton
+                          sx={{ color: 'rgba(255, 255, 255, 0.54)' }}
+                          aria-label={`info about ${item.title}`}
+                        >
+                          {/* <InfoIcon /> */}
+                        </IconButton>
+                      }
+                    />
+              </ImageListItem>
+                ))}
+              </ImageList>
             </TabPanel>
           </SwipeableViews>
     </div>
