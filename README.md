@@ -1,4 +1,4 @@
-# Anime Web Site - Horimiya 
+# Anime Web Site - My Hero Academia 
 
 This project consists of the [Prototype - Boku No Hero Academia](https://linky.design/my-hero-academia) created to adapt the most interesting information of an anime within a website, for this we use React to create the site. 
 
@@ -6,5 +6,5 @@ Boku No Hero Academia Prototype is the second project of the series "Web Designi
 
 # In construction the Deployed website:
 here.would.go.my.in.production.site
-<!-- mha.mariamedwards.com or https://bokunohero-mha.netlify.app/ -->
+<!-- mha.mariamedwards.com or https://bnha.netlify.app/ -->
 

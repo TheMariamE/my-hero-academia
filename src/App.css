@@ -683,6 +683,11 @@ ul.footer-nav a {
   text-align: center;
 }
 
+/********************************** Author - Grid **********************************/
+
+/********************************** Author - Kohei Horikoshi **********************************/
+
+
 /********************************** Media Queries **********************************/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -749,27 +754,27 @@ ul.footer-nav a {
     margin-top: 3.5rem;
   }
 
-  .css-pxxd1-MuiImageListItem-root {
+  .MuiImageListItem-root {
     grid-column-end: span 2 !important;
   }
 
-  .css-pxxd1-MuiImageListItem-root .MuiImageListItem-img {
+  .MuiImageListItem-root .MuiImageListItem-img {
       object-fit: cover !important;
   }
 
-  #gallery.css-1kn2p5x-MuiImageList-root {
+  #gallery.MuiImageList-root {
     grid-template-columns: repeat(4, 1fr) !important;
   }
 
-  .css-pxxd1-MuiImageListItem-root:last-child {
+  .MuiImageListItem-root:last-child {
     grid-column-end: span 4 !important;
   }
 
-  .css-102lvwq-MuiImageList-root {
+  .MuiImageList-root {
     display: inline !important;
   }
 
-  li.MuiImageListItem-root.MuiImageListItem-standard.css-pxxd1-MuiImageListItem-root {
+  li.MuiImageListItem-root.MuiImageListItem-standard.MuiImageListItem-root {
       margin-bottom: 15px !important;
   }
 
