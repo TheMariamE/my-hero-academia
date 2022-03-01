@@ -652,7 +652,6 @@ ul.footer-nav a {
 #author-banner {
   background-image: url('./images/Author-Banner.jpg');
   min-height: 70vh;
-  /* margin-top: 110px; */
   background-size: cover;
   display: flex;
   align-items: center;
@@ -677,6 +676,7 @@ ul.footer-nav a {
   font-size: 5rem;
   margin-bottom: 0px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /********************************** Author - Grid **********************************/
@@ -740,6 +740,40 @@ ul.footer-nav a {
   font-size: 4.4rem;
   text-transform: uppercase;
   text-align: center;
+}
+
+/********************************** Episodes - Banner **********************************/
+
+#episodes-banner {
+  background-image: url('./images/Episodes.jpg');
+  min-height: 75vh;
+  /* margin-top: 110px; */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  background-position: center;
+}
+
+#episodes-banner img {
+  width: 100%;
+  vertical-align: middle !important;
+  padding: 25px 25%;
+}
+
+.desc-au-banner{
+  display: flex;
+  align-items: center;
+  white-space: pre-line;
+  place-content: center;
+}
+
+#episodes-banner h1 {
+  font-size: 5rem;
+  margin-bottom: 0px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /********************************** Media Queries **********************************/
