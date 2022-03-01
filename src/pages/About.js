@@ -5,6 +5,7 @@ import Banner from '../components/About/Banner';
 import Grid from '../components/About/AUGrid';
 import Staff from '../components/About/Staff';
 import HS from '../components/About/HighSchool';
+import Grid2 from '../components/About/AUGrid2';
 import Footer from '../components/Principal/Footer';
 
 const About = () => {
@@ -16,6 +17,7 @@ const About = () => {
             <Grid />
             <Staff />
             <HS />
+            <Grid2 />
             <Footer />  
         </>   
     )

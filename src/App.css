@@ -621,6 +621,17 @@ ul.footer-nav a {
   width: -webkit-fill-available;
 }
 
+/********************************** About Us - Grid 2 **********************************/
+
+#au-grid2 img {
+  width: -webkit-fill-available;
+  margin-top: 1.5rem;
+}
+
+#au-grid2 {
+  margin-bottom: -0.5rem;
+}
+
 /********************************** Media Queries **********************************/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {

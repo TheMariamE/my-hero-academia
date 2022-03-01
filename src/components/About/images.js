@@ -74,6 +74,13 @@ const images = {
     // UA High School section
     hs1: require("../../images/hs-1.jpg").default,
     hs2: require("../../images/hs-2.jpg").default,
+    // AUGrid2 section
+    g13: require( "../../images/Sir_Nighteye.png").default,
+    g14: require( "../../images/Gang_Orca.png").default,
+    g15: require( "../../images/Hawks_Anime.png").default, 
+    g16: require( "../../images/Ryukyu.png").default, 
+    g17: require( "../../images/Fat_Gum.png").default, 
+    g18: require( "../../images/Endeavor.png").default 
 }
 
 export default images;
