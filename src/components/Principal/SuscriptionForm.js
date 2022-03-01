@@ -35,7 +35,7 @@ const SuscriptionForm = () => {
     <>  
      <Form onSubmit={handleOnSubmit}>
      <div className="row">
-        <div class="col-lg-8">
+        <div className="col-lg-8">
             <Form.Field
             id='form-input-control-name-sus'
             control={Input}
@@ -64,7 +64,7 @@ const SuscriptionForm = () => {
             }}
             />
             </div>
-            <div class="col-lg-4">
+            <div className="col-lg-4">
                 <Button type='submit' color='green'><Icon name='send' />Suscribe</Button>
             </div>
       </div>

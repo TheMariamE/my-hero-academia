@@ -681,8 +681,46 @@ ul.footer-nav a {
 
 /********************************** Author - Grid **********************************/
 
+
+#kh-grid {
+  background-color: var(--black);
+}
+
+#kh-grid img {
+  width: -webkit-fill-available;
+  margin: 1.5rem 0rem;
+  object-fit: cover;
+  height: 250px;
+}
+
 /********************************** Author - Kohei Horikoshi **********************************/
 
+#kohei {
+  padding: 40px 0px;
+  background-color: var(--black);
+}
+
+#kohei h1 {
+  color: var(--yellow);
+  font-size: 4.4rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+#kohei p{
+  font-family: Arial;
+  font-size: 1.40rem;
+  text-align: justify;
+  color: var(--white);
+}
+
+#kohei .desc {
+  padding-left: 2.5rem;
+}
+
+#kohei img {
+  width: -webkit-fill-available;
+}
 
 /********************************** Media Queries **********************************/
 
@@ -832,6 +870,15 @@ ul.footer-nav a {
     padding: 25px 10%;
   }
 
+  #kohei .desc {
+    padding-left: 15px;
+    padding-top: 3rem;
+  }
+
+  #author-banner {
+    background-position: center;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -861,6 +908,23 @@ ul.footer-nav a {
     margin: 15px;
     place-content: center;
 }
+
+}
+
+@media screen and (max-width: 576px) {
+
+  #kh-grid img {
+    height: 150px;
+    margin: 0.5rem 0rem;
+  }
+
+  #kh-grid .au-r2 {
+    padding-right: 0px !important;
+  }
+
+  #kh-grid {
+    padding: 0.5rem 15px !important;
+  }
 
 }
 
