@@ -71,6 +71,9 @@ const images = {
     nm: require("../../images/Neito_Monoma.png").default,
     ry: require("../../images/Reiko_Yanagi.png").default,
     hr: require("../../images/Hiryu_Rin.png").default,
+    // UA High School section
+    hs1: require("../../images/hs-1.jpg").default,
+    hs2: require("../../images/hs-2.jpg").default,
 }
 
 export default images;
