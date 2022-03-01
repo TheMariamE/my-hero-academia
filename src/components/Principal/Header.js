@@ -15,22 +15,22 @@ const Header = () => {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item active">
-                  <Link className="nav-link" to="/">Home</Link>
+                  <Link className="home nav-link" to="/">Home</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/about-us">About Us</Link>
+                  <Link className="about nav-link" to="/about-us">About Us</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/author">Author</Link>
+                  <Link className="author nav-link" to="/author">Author</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/episodes">Episodes</Link>
+                  <Link className="episodes nav-link" to="/episodes">Episodes</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/contact">Contact</Link>
+                  <Link className="contact nav-link" to="/contact">Contact</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/become-a-hero">Become a Hero!</Link>
+                  <Link className="bah nav-link" to="/become-a-hero">Become a Hero!</Link>
                 </li>
               </ul>
             </div>

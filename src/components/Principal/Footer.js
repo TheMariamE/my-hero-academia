@@ -34,19 +34,19 @@ const Footer = () => {
                             <h6>Navigation</h6>
                             <ul className="footer-nav">
                                 <li>
-                                    <Link className="nav-link" to="/">Home</Link>
+                                    <Link className="home nav-link" to="/">Home</Link>
                                 </li>
                                 <li>
-                                    <Link className="nav-link" to="/about-us">About Us</Link>
+                                    <Link className="about nav-link" to="/about-us">About Us</Link>
                                 </li>
                                 <li>
-                                    <Link className="nav-link" to="/author">Author</Link>
+                                    <Link className="author nav-link" to="/author">Author</Link>
                                 </li>
                                 <li>
-                                    <Link className="nav-link" to="/episodes">Episodes</Link>
+                                    <Link className="episodes nav-link" to="/episodes">Episodes</Link>
                                 </li>
                                 <li>
-                                    <Link className="nav-link" to="/contact">Contact Us</Link>
+                                    <Link className="contact nav-link" to="/contact">Contact Us</Link>
                                 </li>
                             </ul>
                         </div>

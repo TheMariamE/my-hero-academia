@@ -96,6 +96,15 @@ body{
   padding-right: 0px;
 }
 
+#home .home.nav-link, 
+#aboutus .about.nav-link,
+#author .author.nav-link,
+#episodes .episodes.nav-link,
+#contact .contact.nav-link,
+#bah .bah.nav-link {
+  color: var(--yellow);
+}
+
 /*Mobile Header*/
 
 #mha-nav button.navbar-toggler {
@@ -245,6 +254,16 @@ ul.footer-nav a {
   background-color: var(--red);
   transition: 0.4s;
 }
+
+#home footer .home.nav-link, 
+#aboutus footer .about.nav-link,
+#author footer .author.nav-link,
+#episodes footer .episodes.nav-link,
+#contact footer .contact.nav-link {
+  color: var(--red);
+}
+
+/******* Copyright *******/
 
 #copyright{
   background-color: var(--red);
