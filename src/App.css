@@ -651,6 +651,38 @@ ul.footer-nav a {
   margin-bottom: -0.5rem;
 }
 
+/********************************** Author - Banner **********************************/
+
+#author-banner {
+  background-image: url('./images/Author-Banner.jpg');
+  min-height: 70vh;
+  /* margin-top: 110px; */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+#author-banner img {
+  width: 100%;
+  vertical-align: middle !important;
+  padding: 25px 25%;
+}
+
+.desc-au-banner{
+  display: flex;
+  align-items: center;
+  white-space: pre-line;
+  place-content: center;
+}
+
+#author-banner h1 {
+  font-size: 5rem;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
 /********************************** Media Queries **********************************/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -793,6 +825,10 @@ ul.footer-nav a {
 
   #au-banner h1 {
     font-size: 3rem !important;
+  }
+
+  #author-banner img {
+    padding: 25px 10%;
   }
 
 }

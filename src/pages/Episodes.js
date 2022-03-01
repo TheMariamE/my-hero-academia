@@ -5,11 +5,11 @@ import Footer from '../components/Principal/Footer';
 
 const Episodes = () => {
     return (
-        <>
+        <div id="episodes">
             <TopBar />
             <Header />
             <Footer />  
-        </> 
+        </div> 
     )
 }
 
