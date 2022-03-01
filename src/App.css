@@ -472,11 +472,11 @@ ul.footer-nav a {
 
 /********************************** Home - Gallery **********************************/
 
-#gallery{
+#gallery {
   padding-top: 1em;
   padding-bottom: 1em;
   background-color: var(--yellow);
-  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 
 #gallery .row .col-*{
@@ -579,7 +579,7 @@ ul.footer-nav a {
   box-shadow: none !important;
 }
 
-.MuiImageList-root li img {
+#aboutus .MuiImageList-root li img {
   border-radius: 15px;
 }
 
@@ -700,7 +700,7 @@ ul.footer-nav a {
   background-color: var(--black);
 }
 
-#kohei h1 {
+#kohei h2 {
   color: var(--yellow);
   font-size: 4.4rem;
   margin-bottom: 1rem;
@@ -716,10 +716,30 @@ ul.footer-nav a {
 
 #kohei .desc {
   padding-left: 2.5rem;
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #kohei img {
   width: -webkit-fill-available;
+}
+
+/********************************** Author - Series & Oneshots **********************************/
+
+#series-oneshots {
+  background-color: var(--yellow);
+  padding: 80px 0px 160px 0px;
+  margin-bottom: -8rem;
+}
+
+#series-oneshots h2 {
+  font-size: 4.4rem;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /********************************** Media Queries **********************************/
@@ -804,9 +824,9 @@ ul.footer-nav a {
     grid-column-end: span 4 !important;
   }
 
-  .MuiImageList-root {
+  /* .MuiImageList-root {
     display: inline !important;
-  }
+  } */
 
   li.MuiImageListItem-root.MuiImageListItem-standard.MuiImageListItem-root {
       margin-bottom: 15px !important;
