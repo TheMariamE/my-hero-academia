@@ -548,7 +548,7 @@ ul.footer-nav a {
   margin-bottom: 0em;
 }
 
-.css-heg063-MuiTabs-flexContainer {
+.MuiTabs-flexContainer {
   place-content: center;
 }
 
@@ -567,28 +567,28 @@ ul.footer-nav a {
   letter-spacing: 1px;
 }
 
-.css-1vw5i9y-MuiButtonBase-root-MuiTab-root.Mui-selected {
+.MuiButtonBase-root.Mui-selected {
   opacity: 1;
   background-color: var(--yellow) !important;
   color: var(--black) !important;
   transition: 0.4s;
 }
 
-.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+.MuiPaper-root {
   background-color: transparent !important;
   box-shadow: none !important;
 }
 
-.css-102lvwq-MuiImageList-root li img {
+.MuiImageList-root li img {
   border-radius: 15px;
 }
 
-.css-ztrqiq-MuiImageListItemBar-root {
+.MuiImageListItemBar-root {
   border-radius: 0px 0px 15px 15px;
-  background: rgb(229 30 37 / 70%);
+  background: rgb(229 30 36 / 70%) !important;
 }
 
-.css-dasnyc-MuiImageListItemBar-title {
+.MuiImageListItemBar-title {
   font-family: FuturaDisPEE;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -596,17 +596,13 @@ ul.footer-nav a {
   text-align: center;
 }
 
-.css-hk6gwf-MuiImageListItemBar-subtitle {
+.MuiImageListItemBar-subtitle {
   text-align: center;
   font-size: 1rem !important;
   line-height: 1.8rem !important;
 }
 
-.css-ztrqiq-MuiImageListItemBar-root {
-  background-color: rgb(229 30 36 / 70%) !important;
-}
-
-.css-19kzrtu {
+.MuiBox-root {
   padding: 15px !important;
 }
 
