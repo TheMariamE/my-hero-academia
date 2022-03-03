@@ -20,6 +20,8 @@ const images = {
     so1: require( "../../images/so1.jpg").default,
     so2: require( "../../images/so2.jpg").default,
     so3: require( "../../images/so3.jpg").default,
+    // so4: require( "../../images/so4.jpg").default,
+    // so5: require( "../../images/so5.jpg").default,
 }
 
 export default images;
