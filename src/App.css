@@ -800,6 +800,9 @@ ul.footer-nav a {
   opacity: 0;
   transition: .5s ease;
   background-color: rgb(229 30 36 / 70%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .so-container-overlay:hover .so-overlay {
@@ -815,6 +818,12 @@ ul.footer-nav a {
   align-items: center;
   justify-content: center;
   vertical-align: middle;
+}
+
+.so-p {
+  font-family: Arial;
+  font-size: 1.40rem;
+  line-height: 1rem;
 }
 
 /********************************** Episodes - Banner **********************************/
