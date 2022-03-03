@@ -320,7 +320,7 @@ ul.footer-nav a {
 }
 
 /*SWIPER MODULE CSS*/
-.swiper-slide {
+#home .swiper-slide {
   text-align: center;
   font-size: 2.2rem;
   background: var(--white);
@@ -740,6 +740,81 @@ ul.footer-nav a {
   font-size: 4.4rem;
   text-transform: uppercase;
   text-align: center;
+}
+
+/*Carousel*/
+
+#series-oneshots .swiper-slide {
+  text-align: center;
+  font-size: 2.2rem;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+#series-oneshots .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#series-oneshots .swiper-wrapper {
+  height: 50vh !important;
+}
+
+/*Overlay*/
+
+.so-container-overlay {
+  position: relative;
+  width: 95%;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: 0px !important;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 0px !important;
+}
+
+.swiper {
+  padding: 0px 35px !important;
+}
+
+.so-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.so-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(229 30 36 / 70%);
+}
+
+.so-container-overlay:hover .so-overlay {
+  opacity: 1;
+}
+
+.so-text, .so-p {
+  color: white;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
 }
 
 /********************************** Episodes - Banner **********************************/
