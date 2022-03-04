@@ -10,7 +10,7 @@ const Carousel = () => {
     return (
         <div id="home-carousel" className='container-fluid'>
             <h2>WATCH ONLINE  ALL SEASONS OF MY HERO ACADEMIA</h2>
-            <Swiper spaceBetween={20} pagination={{ "dynamicBullets": true }} slidesPerView={3} navigation={true} loop={true} className="mySwiper container">
+            <Swiper spaceBetween={18} pagination={{ "dynamicBullets": true }} slidesPerView={3} navigation={true} loop={true} className="mySwiper container">
                 <SwiperSlide>
                     <div className="card hc-season text-white">
                     <a href="https://www3.animeflv.net/anime/boku-no-hero-academia-2016" rel="noreferrer" target="_blank"><img className="card-img" src={images.s1} alt="My Hero Academia - Logo"></img></a>

@@ -771,15 +771,15 @@ ul.footer-nav a {
   width: 95%;
 }
 
-.swiper-button-prev, .swiper-rtl .swiper-button-next {
+#series-oneshots .swiper-button-prev, #series-oneshots .swiper-rtl .swiper-button-next {
   left: 0px !important;
 }
 
-.swiper-button-next, .swiper-rtl .swiper-button-prev {
+#series-oneshots .swiper-button-next, #series-oneshots .swiper-rtl .swiper-button-prev {
   right: 0px !important;
 }
 
-.swiper {
+#series-oneshots .swiper {
   padding: 0px 35px !important;
 }
 
