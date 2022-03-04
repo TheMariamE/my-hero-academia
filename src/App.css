@@ -4,12 +4,13 @@
   font-family: 'FuturaDisPEE';
   font-style: normal;
   font-weight: 400;
-  src: url('../src/fonts/FuturaDisPEE.ttf'); 
+  src: url('../src/fonts/FuturaDisplay.woff'); 
   src: local('FuturaDisPEE'), local('FuturaDisPEE'),
        url('../src/fonts/FuturaDisComDEE.ttf') format('tff'), 
        url('../src/fonts/FuturaDisDEE.ttf') format('tff'),
        url('../src/fonts/FuturaDisOutPEE.ttf') format('tff'),
-       url('../src/fonts/FuturaDisPEE.ttf') format('tff')
+       url('../src/fonts/FuturaDisPEE.ttf') format('tff'),
+       url('../src/fonts/FuturaDisplay.woff') format('woff')
 }
 
 body {
