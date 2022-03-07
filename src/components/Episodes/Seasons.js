@@ -46,10 +46,9 @@ export default function Seasons() {
   };
   return (
     <div id="seasons" className='container-fluid'>
-        <div className='container'>
-            <div className='row'>
+        <div className='row'>
             <Box
-                sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: '72vh' }}
+                sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: '90vh' }}
                 id="season-tabs"
                 >
                 <Tabs
@@ -60,29 +59,38 @@ export default function Seasons() {
                     aria-label="Vertical tabs example"
                     sx={{ borderRight: 1, borderColor: 'divider' }}
                 >
-                    <Tab label="Item One" {...a11yProps(0)} />
-                    <Tab label="Item Two" {...a11yProps(1)} />
-                    <Tab label="Item Three" {...a11yProps(2)} />
-                    <Tab label="Item Four" {...a11yProps(3)} />
-                    <Tab label="Item Five" {...a11yProps(4)} />
+                    <Tab label="Season 1" {...a11yProps(0)} />
+                    <Tab label="Season 2" {...a11yProps(1)} />
+                    <Tab label="Season 3" {...a11yProps(2)} />
+                    <Tab label="Season 4" {...a11yProps(3)} />
+                    <Tab label="Season 5" {...a11yProps(4)} />
                 </Tabs>
                 <TabPanel value={value} index={0}>
-                    Item One
+                    <div id="episodes" class="container">
+                        <h2>WATCH ALL SEASONS NOW!</h2>
+                    </div>
                 </TabPanel>
                 <TabPanel value={value} index={1}>
-                    Item Two
+                    <div id="episodes" class="container">
+                        <h2>WATCH ALL SEASONS NOW!</h2>
+                    </div>
                 </TabPanel>
                 <TabPanel value={value} index={2}>
-                    Item Three
+                    <div id="episodes" class="container">
+                        <h2>WATCH ALL SEASONS NOW!</h2>
+                    </div>
                 </TabPanel>
                 <TabPanel value={value} index={3}>
-                    Item Four
+                    <div id="episodes" class="container">
+                        <h2>WATCH ALL SEASONS NOW!</h2>
+                    </div>
                 </TabPanel>
                 <TabPanel value={value} index={4}>
-                    Item Five
+                    <div id="episodes" class="container">
+                        <h2>WATCH ALL SEASONS NOW!</h2>
+                    </div>
                 </TabPanel>
             </Box>
-            </div>
         </div>
     </div>   
   )
