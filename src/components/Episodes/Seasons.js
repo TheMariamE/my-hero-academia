@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Tabs from '@mui/material/Tabs';
-import Tab from '@mui/material/Tab';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+import { Tab, Tabs, Typography, Box, ImageList, ImageListItem, ImageListItemBar } from '@mui/material/';
+import episodes from './Episodes.js';
+
+var seasonOneSlideOne = episodes.slice(0, 9);
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -48,15 +48,15 @@ export default function Seasons() {
     <div id="seasons" className='container-fluid'>
         <div className='row'>
             <Box
-                sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex', height: '90vh' }}
+                sx={{ flexGrow: 1, bgcolor: 'background.paper', display: 'flex' }}
                 id="season-tabs"
                 >
                 <Tabs
                     orientation="vertical"
-                    variant="scrollable"
+                    variant="fullWidth"
                     value={value}
                     onChange={handleChange}
-                    aria-label="Vertical tabs example"
+                    aria-label="Vertical tabs"
                     sx={{ borderRight: 1, borderColor: 'divider' }}
                 >
                     <Tab label="Season 1" {...a11yProps(0)} />
@@ -68,11 +68,47 @@ export default function Seasons() {
                 <TabPanel value={value} index={0}>
                     <div id="episodes" class="container">
                         <h2>WATCH ALL SEASONS NOW!</h2>
+                        <ImageList sx={{
+                            gridTemplateColumns: 'repeat(3, 1fr) !important',
+                            gap: '15px !important',
+                            }}>
+                                {seasonOneSlideOne.map((item) => (
+                                <ImageListItem key={item.img}>
+                                    <img
+                                    src={`${item.img}?w=248&fit=crop&auto=format`}
+                                    srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                    alt={item.title}
+                                    loading="lazy"
+                                    />
+                                    <ImageListItemBar
+                                    title={item.title}
+                                    />
+                            </ImageListItem>
+                                ))}
+                        </ImageList>
                     </div>
                 </TabPanel>
                 <TabPanel value={value} index={1}>
                     <div id="episodes" class="container">
                         <h2>WATCH ALL SEASONS NOW!</h2>
+                        <ImageList sx={{
+                            gridTemplateColumns: 'repeat(4, 1fr) !important',
+                            gap: '15px !important',
+                            }}>
+                                {episodes.map((item) => (
+                                <ImageListItem key={item.img}>
+                                    <img
+                                    src={`${item.img}?w=248&fit=crop&auto=format`}
+                                    srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                    alt={item.title}
+                                    loading="lazy"
+                                    />
+                                    <ImageListItemBar
+                                    title={item.title}
+                                    />
+                            </ImageListItem>
+                                ))}
+                        </ImageList>
                     </div>
                 </TabPanel>
                 <TabPanel value={value} index={2}>

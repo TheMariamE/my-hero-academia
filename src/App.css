@@ -872,6 +872,8 @@ ul.footer-nav a {
   color: var(--white);
   background-color: transparent;
   padding: 0px !important;
+  height: fit-content;
+  min-height: 100vh;
 }
 
 #season-tabs .MuiTabs-vertical {
@@ -882,7 +884,7 @@ ul.footer-nav a {
   flex-wrap: nowrap;
   align-content: flex-end;
   align-items: center;
-  padding: 0px 25px;
+  padding: 0px 30px;
 }
 
 #season-tabs .MuiTabs-indicator {
@@ -894,7 +896,7 @@ ul.footer-nav a {
 }
 
 #season-tabs .MuiTabs-flexContainerVertical button {
-  margin: 15px 0px;
+  margin: 22px 0px;
   font-family: 'FuturaDisPEE';
   font-size: 1.40rem;
   border-radius: 5px;
@@ -906,17 +908,55 @@ ul.footer-nav a {
   font-size: 4.4rem;
   color: var(--yellow);
   text-transform: uppercase;
-  margin-bottom: -15px;
   font-family: 'FuturaDisPEE';
+  text-align: center;
 }
 
-#vertical-tabpanel-0 {
+/* #vertical-tabpanel-0,
+#vertical-tabpanel-1,
+#vertical-tabpanel-2,
+#vertical-tabpanel-3,
+#vertical-tabpanel-4 {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   align-content: center;
   justify-content: center;
   width: 100%;
+} */
+
+#vertical-tabpanel-0, 
+#vertical-tabpanel-1, 
+#vertical-tabpanel-2, 
+#vertical-tabpanel-3, 
+#vertical-tabpanel-4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+#season-tabs .MuiImageListItemBar-root {
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: auto;
+  align-items: center;
+  display: flex;
+  width: 50%;
+}
+
+#season-tabs .MuiImageListItemBar-root {
+  border-radius: 0px;
+  background: rgb(229 30 36 / 70%) !important;
+}
+
+#season-tabs .MuiImageListItemBar-title {
+  font-size: 2.2rem !important;
 }
 
 /********************************** Media Queries **********************************/
