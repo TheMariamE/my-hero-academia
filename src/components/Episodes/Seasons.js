@@ -9,9 +9,9 @@ SwiperCore.use([Pagination, Navigation]);
 
 //SEASON 1
 var seasonOneSlideOne = episodes.slice(0, 8);
-var seasonOneSlideTwo = episodes.slice(9, 15);
+var seasonOneSlideTwo = episodes.slice(8, 15);
 //SEASON 2
-var seasonTwoSlideOne = episodes.slice(16, 22);
+var seasonTwoSlideOne = episodes.slice(15, 22);
 var seasonTwoSlideTwo = episodes.slice(16, 22);
 //SEASON 3
 
@@ -132,7 +132,7 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonOneSlideOne.map((item) => (
+                                    {seasonTwoSlideOne.map((item) => (
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -152,7 +152,7 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonOneSlideTwo.map((item) => (
+                                    {seasonTwoSlideTwo.map((item) => (
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
