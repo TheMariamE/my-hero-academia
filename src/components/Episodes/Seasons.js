@@ -11,8 +11,10 @@ SwiperCore.use([Pagination, Navigation]);
 var seasonOneSlideOne = episodes.slice(0, 8);
 var seasonOneSlideTwo = episodes.slice(8, 15);
 //SEASON 2
-var seasonTwoSlideOne = episodes.slice(15, 22);
-var seasonTwoSlideTwo = episodes.slice(16, 22);
+var seasonTwoSlideOne = episodes.slice(15, 23);
+var seasonTwoSlideTwo = episodes.slice(23, 31);
+var seasonTwoSlideThree = episodes.slice(31, 39);
+var seasonTwoSlideFour = episodes.slice(39);
 //SEASON 3
 
 
@@ -153,6 +155,46 @@ export default function Seasons() {
                                 gap: '15px !important',
                                 }}>
                                     {seasonTwoSlideTwo.map((item) => (
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                </ImageListItem>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                    {seasonTwoSlideThree.map((item) => (
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                </ImageListItem>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                    {seasonTwoSlideFour.map((item) => (
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
