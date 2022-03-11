@@ -61,7 +61,47 @@ const Episodes = [
         img: images.kk,
         title: 'Episode 12',
         link: ''
-    }
+    },
+    {
+        img: images.kk,
+        title: 'Episode 13',
+        link: ''
+    },
+    {
+        img: images.kk,
+        title: 'Episode 14',
+        link: ''
+    },
+    {
+        img: images.kk,
+        title: 'Episode 15',
+        link: ''
+    },
+    {
+        img: images.kk,
+        title: 'Episode 16',
+        link: ''
+    },
+    {
+        img: images.kk,
+        title: 'Episode 17',
+        link: ''
+    },
+    {
+        img: images.kk,
+        title: 'Episode 18',
+        link: ''
+    },
+    {
+        img: images.kk,
+        title: 'Episode 19',
+        link: ''
+    },
+    {
+        img: images.kk,
+        title: 'Episode 20',
+        link: ''
+    },
   ];
 
   export default Episodes; 

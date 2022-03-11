@@ -1,9 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Tab, Tabs, Typography, Box, ImageList, ImageListItem, ImageListItemBar } from '@mui/material/';
+import SwiperCore, { Pagination, Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
 import episodes from './Episodes.js';
 
-var seasonOneSlideOne = episodes.slice(0, 9);
+SwiperCore.use([Pagination, Navigation]);
+
+//SEASON 1
+var seasonOneSlideOne = episodes.slice(0, 8);
+var seasonOneSlideTwo = episodes.slice(9, 15);
+//SEASON 2
+var seasonTwoSlideOne = episodes.slice(16, 22);
+var seasonTwoSlideTwo = episodes.slice(16, 22);
+//SEASON 3
+
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -68,52 +79,142 @@ export default function Seasons() {
                 <TabPanel value={value} index={0}>
                     <div id="episodes" class="container">
                         <h2>WATCH ALL SEASONS NOW!</h2>
-                        <ImageList sx={{
-                            gridTemplateColumns: 'repeat(3, 1fr) !important',
-                            gap: '15px !important',
-                            }}>
-                                {seasonOneSlideOne.map((item) => (
-                                <ImageListItem key={item.img}>
-                                    <img
-                                    src={`${item.img}?w=248&fit=crop&auto=format`}
-                                    srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                                    alt={item.title}
-                                    loading="lazy"
-                                    />
-                                    <ImageListItemBar
-                                    title={item.title}
-                                    />
-                            </ImageListItem>
+                        <Swiper spaceBetween={27} slidesPerView={1} pagination={{clickable: true,}}loop={true} className="mySwiper container">
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                    {seasonOneSlideOne.map((item) => (
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                </ImageListItem>
                                 ))}
-                        </ImageList>
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                    {seasonOneSlideTwo.map((item) => (
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                </ImageListItem>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </TabPanel>
                 <TabPanel value={value} index={1}>
                     <div id="episodes" class="container">
                         <h2>WATCH ALL SEASONS NOW!</h2>
-                        <ImageList sx={{
-                            gridTemplateColumns: 'repeat(4, 1fr) !important',
-                            gap: '15px !important',
-                            }}>
-                                {episodes.map((item) => (
-                                <ImageListItem key={item.img}>
-                                    <img
-                                    src={`${item.img}?w=248&fit=crop&auto=format`}
-                                    srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-                                    alt={item.title}
-                                    loading="lazy"
-                                    />
-                                    <ImageListItemBar
-                                    title={item.title}
-                                    />
-                            </ImageListItem>
+                        <Swiper spaceBetween={27} slidesPerView={1} pagination={{clickable: true,}}loop={true} className="mySwiper container">
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                    {seasonOneSlideOne.map((item) => (
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                </ImageListItem>
                                 ))}
-                        </ImageList>
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                    {seasonOneSlideTwo.map((item) => (
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                </ImageListItem>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </TabPanel>
                 <TabPanel value={value} index={2}>
                     <div id="episodes" class="container">
                         <h2>WATCH ALL SEASONS NOW!</h2>
+                        <Swiper spaceBetween={27} slidesPerView={1} pagination={{clickable: true,}}loop={true} className="mySwiper container">
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                    {seasonOneSlideOne.map((item) => (
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                </ImageListItem>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                    {seasonOneSlideTwo.map((item) => (
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                </ImageListItem>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </TabPanel>
                 <TabPanel value={value} index={3}>

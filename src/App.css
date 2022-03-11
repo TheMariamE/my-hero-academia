@@ -904,12 +904,13 @@ ul.footer-nav a {
   box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
-#episodes h2 {
+#seasons h2 {
   font-size: 4.4rem;
   color: var(--yellow);
   text-transform: uppercase;
   font-family: 'FuturaDisPEE';
   text-align: center;
+  margin-bottom: 4vh;
 }
 
 /* #vertical-tabpanel-0,
@@ -932,8 +933,8 @@ ul.footer-nav a {
 #vertical-tabpanel-4 {
   display: flex;
   flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: space-between;
+  align-content: center;
+  justify-content: center;
   width: 100%;
   align-items: center;
   flex-direction: column;
@@ -956,7 +957,23 @@ ul.footer-nav a {
 }
 
 #season-tabs .MuiImageListItemBar-title {
-  font-size: 2.2rem !important;
+  font-size: 1.40rem !important;
+}
+
+#episodes .swiper-wrapper{
+  height: -webkit-fill-available !important;
+}
+
+#episodes .swiper-pagination {
+  bottom: -5px;
+}
+
+#episodes .swiper-pagination-bullet {
+  background: var(--white);
+}
+
+#episodes .MuiImageList-root {
+  margin-bottom: 3vh;
 }
 
 /********************************** Media Queries **********************************/
