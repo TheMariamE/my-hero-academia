@@ -981,6 +981,17 @@ ul.footer-nav a {
   object-fit: cover !important;
 }
 
+#seasons .swiper-slide img {
+  height: 250px;
+  object-fit: cover !important;
+  webkit-filter: blur(3px);
+  filter: blur(3px);
+}
+
+#seasons .swiper-slide img:hover, #seasons .swiper-slide img:visited {
+  filter: blur(0px);
+}
+
 /********************************** Media Queries **********************************/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
