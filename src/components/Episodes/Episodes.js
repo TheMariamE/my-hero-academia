@@ -204,6 +204,132 @@ const Episodes = [
       title: 'Episode 25',
       link: ''
     },
+    // SEASON 3
+    {
+      img: images.s3e1,
+      title: 'Episode 1',
+      link: ''
+    },
+    {
+      img: images.s3e2,
+      title: 'Episode 2',
+      link: ''
+    },
+    {
+      img: images.s3e3,
+      title: 'Episode 3',
+      link: ''
+    },
+    {
+      img: images.s3e4,
+      title: 'Episode 4',
+      link: ''
+    },
+    {
+      img: images.s3e5,
+      title: 'Episode 5',
+      link: ''
+    },
+    {
+      img: images.s3e6,
+      title: 'Episode 6',
+      link: ''
+    },
+    {
+      img: images.s3e7,
+      title: 'Episode 7',
+      link: ''
+    },
+    {
+      img: images.s3e8,
+      title: 'Episode 8',
+      link: ''
+    },
+    {
+      img: images.s3e9,
+      title: 'Episode 9',
+      link: ''
+    },
+    {
+      img: images.s3e10,
+      title: 'Episode 10',
+      link: ''
+    },
+    {
+      img: images.s3e11,
+      title: 'Episode 11',
+      link: ''
+    },
+    {
+      img: images.s3e12,
+      title: 'Episode 12',
+      link: ''
+    },
+    {
+      img: images.s3e13,
+      title: 'Episode 13',
+      link: ''
+    },
+    {
+      img: images.s3e14,
+      title: 'Episode 14',
+      link: ''
+    },
+    {
+      img: images.s3e15,
+      title: 'Episode 15',
+      link: ''
+    },
+    {
+      img: images.s3e16,
+      title: 'Episode 16',
+      link: ''
+    },
+    {
+      img: images.s3e17,
+      title: 'Episode 17',
+      link: ''
+    },
+    {
+      img: images.s3e18,
+      title: 'Episode 18',
+      link: ''
+    },
+    {
+      img: images.s3e19,
+      title: 'Episode 19',
+      link: ''
+    },
+    {
+      img: images.s3e20,
+      title: 'Episode 20',
+      link: ''
+    },
+    {
+      img: images.s3e21,
+      title: 'Episode 21',
+      link: ''
+    },
+    {
+      img: images.s3e22,
+      title: 'Episode 22',
+      link: ''
+    },
+    {
+      img: images.s3e23,
+      title: 'Episode 23',
+      link: ''
+    },
+    {
+      img: images.s3e24,
+      title: 'Episode 24',
+      link: ''
+    },
+    {
+      img: images.s3e25,
+      title: 'Episode 25',
+      link: ''
+    },
   ];
 
   export default Episodes; 

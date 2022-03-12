@@ -16,6 +16,10 @@ var seasonTwoSlideTwo = episodes.slice(23, 31);
 var seasonTwoSlideThree = episodes.slice(31, 39);
 var seasonTwoSlideFour = episodes.slice(39);
 //SEASON 3
+var seasonThreeSlideOne = episodes.slice(40, 48);
+var seasonThreeSlideTwo = episodes.slice(48, 56);
+var seasonThreeSlideThree = episodes.slice(56, 64);
+var seasonThreeSlideFour = episodes.slice(64);
 
 
 function TabPanel(props) {
@@ -215,13 +219,13 @@ export default function Seasons() {
                 <TabPanel value={value} index={2}>
                     <div id="episodes" class="container">
                         <h2>WATCH ALL SEASONS NOW!</h2>
-                        <Swiper spaceBetween={27} slidesPerView={1} pagination={{clickable: true,}}loop={true} className="mySwiper container">
+                        <Swiper spaceBetween={27} slidesPerView={1} pagination={{clickable: true,}} loop={true} className="mySwiper container">
                             <SwiperSlide>
                                 <ImageList sx={{
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonOneSlideOne.map((item) => (
+                                    {seasonThreeSlideOne.map((item) => (
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -241,7 +245,47 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonOneSlideTwo.map((item) => (
+                                    {seasonThreeSlideTwo.map((item) => (
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                </ImageListItem>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                    {seasonThreeSlideThree.map((item) => (
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                </ImageListItem>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                    {seasonThreeSlideFour.map((item) => (
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
