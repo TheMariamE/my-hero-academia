@@ -14,7 +14,7 @@ var seasonOneSlideTwo = episodes.slice(8, 15);
 var seasonTwoSlideOne = episodes.slice(15, 23);
 var seasonTwoSlideTwo = episodes.slice(23, 31);
 var seasonTwoSlideThree = episodes.slice(31, 39);
-var seasonTwoSlideFour = episodes.slice(39);
+var seasonTwoSlideFour = episodes.slice(39, 40);
 //SEASON 3
 var seasonThreeSlideOne = episodes.slice(40, 48);
 var seasonThreeSlideTwo = episodes.slice(48, 56);
