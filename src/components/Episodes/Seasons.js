@@ -19,7 +19,12 @@ var seasonTwoSlideFour = episodes.slice(39, 40);
 var seasonThreeSlideOne = episodes.slice(40, 48);
 var seasonThreeSlideTwo = episodes.slice(48, 56);
 var seasonThreeSlideThree = episodes.slice(56, 64);
-var seasonThreeSlideFour = episodes.slice(64);
+var seasonThreeSlideFour = episodes.slice(64, 65);
+//SEASON 4
+var seasonFourSlideOne = episodes.slice(65, 73);
+var seasonFourSlideTwo = episodes.slice(73, 81);
+var seasonFourSlideThree = episodes.slice(81, 89);
+var seasonFourSlideFour = episodes.slice(89);
 
 
 function TabPanel(props) {
@@ -332,7 +337,7 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                {seasonThreeSlideOne.map((item) => (
+                                {seasonFourSlideOne.map((item) => (
                                     <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
@@ -354,7 +359,7 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                {seasonThreeSlideTwo.map((item) => (
+                                {seasonFourSlideTwo.map((item) => (
                                     <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
@@ -376,7 +381,7 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                {seasonThreeSlideThree.map((item) => (
+                                {seasonFourSlideThree.map((item) => (
                                     <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
@@ -398,7 +403,7 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                {seasonThreeSlideFour.map((item) => (
+                                {seasonFourSlideFour.map((item) => (
                                     <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
