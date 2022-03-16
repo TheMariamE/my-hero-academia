@@ -95,6 +95,32 @@ const images = {
     s4e23: require("../../images/S4EP23.jpg").default,
     s4e24: require("../../images/S4EP24.png").default,
     s4e25: require("../../images/S4EP25.jpg").default,
+    // Season 5
+    s5e1: require("../../images/S5EP1.jpg").default,
+    s5e2: require("../../images/S5EP2.jpg").default,
+    s5e3: require("../../images/S5EP3.jpg").default,
+    s5e4: require("../../images/S5EP4.jpg").default,
+    s5e5: require("../../images/S5EP5.jpg").default,
+    s5e6: require("../../images/S5EP6.jpg").default,
+    s5e7: require("../../images/S5EP7.jpg").default,
+    s5e8: require("../../images/S5EP8.jpg").default,
+    s5e9: require("../../images/S5EP9.jpg").default,
+    s5e10: require("../../images/S5EP10.jpg").default,
+    s5e11: require("../../images/S5EP11.jpg").default,
+    s5e12: require("../../images/S5EP12.jpg").default,
+    s5e13: require("../../images/S5EP13.jpg").default,
+    s5e14: require("../../images/S5EP14.jpg").default,
+    s5e15: require("../../images/S5EP15.jpg").default,
+    s5e16: require("../../images/S5EP16.jpg").default,
+    s5e17: require("../../images/S5EP17.jpg").default,
+    s5e18: require("../../images/S5EP18.jpg").default,
+    s5e19: require("../../images/S5EP19.jpg").default,
+    s5e20: require("../../images/S5EP20.jpg").default,
+    s5e21: require("../../images/S5EP21.jpg").default,
+    s5e22: require("../../images/S5EP22.jpg").default,
+    s5e23: require("../../images/S5EP23.jpg").default,
+    s5e24: require("../../images/S5EP24.jpg").default,
+    s5e25: require("../../images/S5EP25.jpg").default
 }
 
 export default images;

@@ -456,6 +456,132 @@ const Episodes = [
       title: 'Episode 25',
       link: ''
     },
+    // SEASON 5
+    {
+      img: images.s5e1,
+      title: 'Episode 1',
+      link: ''
+    },
+    {
+      img: images.s5e2,
+      title: 'Episode 2',
+      link: ''
+    },
+    {
+      img: images.s5e3,
+      title: 'Episode 3',
+      link: ''
+    },
+    {
+      img: images.s5e4,
+      title: 'Episode 4',
+      link: ''
+    },
+    {
+      img: images.s5e5,
+      title: 'Episode 5',
+      link: ''
+    },
+    {
+      img: images.s5e6,
+      title: 'Episode 6',
+      link: ''
+    },
+    {
+      img: images.s5e7,
+      title: 'Episode 7',
+      link: ''
+    },
+    {
+      img: images.s5e8,
+      title: 'Episode 8',
+      link: ''
+    },
+    {
+      img: images.s5e9,
+      title: 'Episode 9',
+      link: ''
+    },
+    {
+      img: images.s5e10,
+      title: 'Episode 10',
+      link: ''
+    },
+    {
+      img: images.s5e11,
+      title: 'Episode 11',
+      link: ''
+    },
+    {
+      img: images.s5e12,
+      title: 'Episode 12',
+      link: ''
+    },
+    {
+      img: images.s5e13,
+      title: 'Episode 13',
+      link: ''
+    },
+    {
+      img: images.s5e14,
+      title: 'Episode 14',
+      link: ''
+    },
+    {
+      img: images.s5e15,
+      title: 'Episode 15',
+      link: ''
+    },
+    {
+      img: images.s5e16,
+      title: 'Episode 16',
+      link: ''
+    },
+    {
+      img: images.s5e17,
+      title: 'Episode 17',
+      link: ''
+    },
+    {
+      img: images.s5e18,
+      title: 'Episode 18',
+      link: ''
+    },
+    {
+      img: images.s5e19,
+      title: 'Episode 19',
+      link: ''
+    },
+    {
+      img: images.s5e20,
+      title: 'Episode 20',
+      link: ''
+    },
+    {
+      img: images.s5e21,
+      title: 'Episode 21',
+      link: ''
+    },
+    {
+      img: images.s5e22,
+      title: 'Episode 22',
+      link: ''
+    },
+    {
+      img: images.s5e23,
+      title: 'Episode 23',
+      link: ''
+    },
+    {
+      img: images.s5e24,
+      title: 'Episode 24',
+      link: ''
+    },
+    {
+      img: images.s5e25,
+      title: 'Episode 25',
+      link: ''
+    }
   ];
 
   export default Episodes; 
