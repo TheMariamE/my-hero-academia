@@ -91,7 +91,8 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonOneSlideOne.map((item) => (
+                                {seasonOneSlideOne.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -102,7 +103,8 @@ export default function Seasons() {
                                         <ImageListItemBar
                                         title={item.title}
                                         />
-                                </ImageListItem>
+                                    </ImageListItem>
+                                    </a>
                                 ))}
                                 </ImageList>
                             </SwiperSlide>
@@ -111,7 +113,8 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonOneSlideTwo.map((item) => (
+                                {seasonOneSlideTwo.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -122,7 +125,8 @@ export default function Seasons() {
                                         <ImageListItemBar
                                         title={item.title}
                                         />
-                                </ImageListItem>
+                                    </ImageListItem>
+                                    </a>
                                 ))}
                                 </ImageList>
                             </SwiperSlide>
@@ -138,7 +142,8 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonTwoSlideOne.map((item) => (
+                                {seasonTwoSlideOne.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -149,7 +154,8 @@ export default function Seasons() {
                                         <ImageListItemBar
                                         title={item.title}
                                         />
-                                </ImageListItem>
+                                    </ImageListItem>
+                                    </a>
                                 ))}
                                 </ImageList>
                             </SwiperSlide>
@@ -158,7 +164,8 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonTwoSlideTwo.map((item) => (
+                                {seasonTwoSlideTwo.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -169,7 +176,8 @@ export default function Seasons() {
                                         <ImageListItemBar
                                         title={item.title}
                                         />
-                                </ImageListItem>
+                                    </ImageListItem>
+                                    </a>
                                 ))}
                                 </ImageList>
                             </SwiperSlide>
@@ -178,7 +186,8 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonTwoSlideThree.map((item) => (
+                                {seasonTwoSlideThree.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -189,7 +198,8 @@ export default function Seasons() {
                                         <ImageListItemBar
                                         title={item.title}
                                         />
-                                </ImageListItem>
+                                    </ImageListItem>
+                                    </a>
                                 ))}
                                 </ImageList>
                             </SwiperSlide>
@@ -198,7 +208,8 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonTwoSlideFour.map((item) => (
+                                {seasonTwoSlideFour.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -209,7 +220,8 @@ export default function Seasons() {
                                         <ImageListItemBar
                                         title={item.title}
                                         />
-                                </ImageListItem>
+                                    </ImageListItem>
+                                    </a>
                                 ))}
                                 </ImageList>
                             </SwiperSlide>
@@ -225,7 +237,8 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonThreeSlideOne.map((item) => (
+                                {seasonThreeSlideOne.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -236,7 +249,8 @@ export default function Seasons() {
                                         <ImageListItemBar
                                         title={item.title}
                                         />
-                                </ImageListItem>
+                                    </ImageListItem>
+                                    </a>
                                 ))}
                                 </ImageList>
                             </SwiperSlide>
@@ -245,7 +259,8 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonThreeSlideTwo.map((item) => (
+                                {seasonThreeSlideTwo.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -256,7 +271,8 @@ export default function Seasons() {
                                         <ImageListItemBar
                                         title={item.title}
                                         />
-                                </ImageListItem>
+                                    </ImageListItem>
+                                    </a>
                                 ))}
                                 </ImageList>
                             </SwiperSlide>
@@ -265,7 +281,8 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonThreeSlideThree.map((item) => (
+                                {seasonThreeSlideThree.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -276,7 +293,8 @@ export default function Seasons() {
                                         <ImageListItemBar
                                         title={item.title}
                                         />
-                                </ImageListItem>
+                                    </ImageListItem>
+                                    </a>
                                 ))}
                                 </ImageList>
                             </SwiperSlide>
@@ -285,7 +303,8 @@ export default function Seasons() {
                                 gridTemplateColumns: 'repeat(4, 1fr) !important',
                                 gap: '15px !important',
                                 }}>
-                                    {seasonThreeSlideFour.map((item) => (
+                                {seasonThreeSlideFour.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
                                     <ImageListItem key={item.img}>
                                         <img
                                         src={`${item.img}?w=248&fit=crop&auto=format`}
@@ -296,7 +315,8 @@ export default function Seasons() {
                                         <ImageListItemBar
                                         title={item.title}
                                         />
-                                </ImageListItem>
+                                    </ImageListItem>
+                                    </a>
                                 ))}
                                 </ImageList>
                             </SwiperSlide>
@@ -306,11 +326,191 @@ export default function Seasons() {
                 <TabPanel value={value} index={3}>
                     <div id="episodes" class="container">
                         <h2>WATCH ALL SEASONS NOW!</h2>
+                        <Swiper spaceBetween={27} slidesPerView={1} pagination={{clickable: true,}} loop={true} className="mySwiper container">
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                {seasonThreeSlideOne.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                    </ImageListItem>
+                                    </a>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                {seasonThreeSlideTwo.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                    </ImageListItem>
+                                    </a>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                {seasonThreeSlideThree.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                    </ImageListItem>
+                                    </a>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                {seasonThreeSlideFour.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                    </ImageListItem>
+                                    </a>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </TabPanel>
                 <TabPanel value={value} index={4}>
                     <div id="episodes" class="container">
                         <h2>WATCH ALL SEASONS NOW!</h2>
+                        <Swiper spaceBetween={27} slidesPerView={1} pagination={{clickable: true,}} loop={true} className="mySwiper container">
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                {seasonThreeSlideOne.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                    </ImageListItem>
+                                    </a>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                {seasonThreeSlideTwo.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                    </ImageListItem>
+                                    </a>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                {seasonThreeSlideThree.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                    </ImageListItem>
+                                    </a>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <ImageList sx={{
+                                gridTemplateColumns: 'repeat(4, 1fr) !important',
+                                gap: '15px !important',
+                                }}>
+                                {seasonThreeSlideFour.map((item) => (
+                                    <a href={item.link} rel="noreferrer">
+                                    <ImageListItem key={item.img}>
+                                        <img
+                                        src={`${item.img}?w=248&fit=crop&auto=format`}
+                                        srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                                        alt={item.title}
+                                        loading="lazy"
+                                        />
+                                        <ImageListItemBar
+                                        title={item.title}
+                                        />
+                                    </ImageListItem>
+                                    </a>
+                                ))}
+                                </ImageList>
+                            </SwiperSlide>
+                        </Swiper>
                     </div>
                 </TabPanel>
             </Box>

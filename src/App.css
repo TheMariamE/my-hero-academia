@@ -990,6 +990,17 @@ ul.footer-nav a {
 
 #seasons .swiper-slide img:hover, #seasons .swiper-slide img:visited {
   filter: blur(0px);
+  transition: 0.8s;
+}
+
+#plus-ultra .card-img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+#plus-ultra .card-img {
+  transition: transform .5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
 }
 
 /********************************** Media Queries **********************************/
