@@ -54,7 +54,7 @@ const Footer = () => {
                             <h6>Plus Ultra</h6>
                             <ul className="footer-nav">
                                 <li>
-                                    <a className="nav-link" href="/become-a-hero" target="_blank" rel="noreferrer">Become a Hero</a>
+                                    <Link className="hero nav-link" to="/become-a-hero">Become a Hero</Link>
                                 </li>
                                 <li>
                                     <a className="nav-link" href="https://myheroacademia.fandom.com/f" target="_blank" rel="noreferrer">Discuss in Forum</a>

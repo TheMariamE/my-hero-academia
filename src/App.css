@@ -102,7 +102,7 @@ body{
 #author .author.nav-link,
 #episodes .episodes.nav-link,
 #contact .contact.nav-link,
-#bah .bah.nav-link {
+#become-a-hero .hero.nav-link {
   color: var(--yellow);
 }
 
@@ -260,7 +260,8 @@ ul.footer-nav a {
 #aboutus footer .about.nav-link,
 #author footer .author.nav-link,
 #episodes footer .episodes.nav-link,
-#contact footer .contact.nav-link {
+#contact footer .contact.nav-link,
+#become-a-hero footer .hero.nav-link {
   color: var(--red);
 }
 
