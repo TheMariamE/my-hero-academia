@@ -8,6 +8,7 @@ import About from './pages/About';
 import Episodes from './pages/Episodes';
 import Author from './pages/Author';
 import Contact from './pages/Contact';
+import Hero from './pages/Hero';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
 // Import Swiper styles
@@ -47,6 +48,7 @@ class App extends React.Component {
           <Route exact path="/episodes" component={Episodes} />
           <Route exact path="/author" component={Author} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/become-a-hero" component={Hero} />
         </>
       </Router>
     );
