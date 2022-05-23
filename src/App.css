@@ -1037,7 +1037,8 @@ ul.footer-nav a {
   text-transform: uppercase;
 }
 
-#contact #f-suscription {
+#contact #f-suscription,
+#become-a-hero #f-suscription {
   margin-top: -6rem;
 }
 
@@ -1045,7 +1046,7 @@ ul.footer-nav a {
 
 #hero-banner {
   background-image: url('./images/Contact.jpg');
-  min-height: 75vh;
+  min-height: 100vh;
   /* margin-top: 110px; */
   background-size: cover;
   display: flex;
