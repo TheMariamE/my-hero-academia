@@ -118,6 +118,13 @@ a.navbar-brand.hide img {
 
 /********************************** Footer **********************************/
 
+
+#f-suscription .col-lg-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 #f-suscription h2 {
   font-size: 4.4rem;
   color: var(--white);
@@ -128,11 +135,11 @@ a.navbar-brand.hide img {
 #f-suscription {
   background-color: var(--red);
   padding: 2rem 4rem;
-  border-radius: 25px;
+  /* border-radius: 25px; */
   z-index: 1;
   position: relative;
   margin-bottom: -8rem;
-  margin-top: 2rem;
+  margin-top: -6rem;
   box-shadow: 0px 15px 20px 10px rgb(0 0 0 / 50%);
 }
 
@@ -240,6 +247,7 @@ ul.footer-nav a {
   padding: 10px;
   background-color: var(--white);
   border-radius: 5px;
+  margin: 5px;
 }
 
 .f-logos {
@@ -277,7 +285,6 @@ ul.footer-nav a {
   padding-top: 15px;
   letter-spacing: 1px;
   font-size: 1rem;
-  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
 }
 
 /********************************** Home - Banner **********************************/
@@ -326,7 +333,7 @@ ul.footer-nav a {
 #home .swiper-slide {
   text-align: center;
   font-size: 2.2rem;
-  background: var(--white);
+  background: transparent;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -582,12 +589,12 @@ ul.footer-nav a {
   box-shadow: none !important;
 }
 
-#aboutus .MuiImageList-root li img {
+/* #aboutus .MuiImageList-root li img {
   border-radius: 15px;
-}
+} */
 
 .MuiImageListItemBar-root {
-  border-radius: 0px 0px 15px 15px;
+  /* border-radius: 0px 0px 15px 15px; */
   background: rgb(229 30 36 / 70%) !important;
 }
 
@@ -647,7 +654,7 @@ ul.footer-nav a {
 }
 
 #au-grid2 {
-  margin-bottom: -0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /********************************** Author - Banner **********************************/
